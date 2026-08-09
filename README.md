@@ -1,3 +1,5 @@
+🇫🇷 **Version française:** [README_FR.md](./README_FR.md)
+
 # NeoMundi Use Cases
 
 Documented use cases, interoperability pilots and experimental articulations using NeoMundi runtime measurement signals.
