@@ -27,6 +27,14 @@ Runtime governance architecture consuming NeoMundi measurement signals while pre
 
 ---
 
+### RiCo — Observation to Admissibility
+
+Architectural interoperability use case documenting how NeoMundi runtime observations can support RiCo Admissibility Determination while preserving the separation between measurement, governance authority and execution enforcement.
+
+→ [View repository](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility)
+
+---
+
 ### FactNotebook — PubMedQA
 
 Evidence-oriented evaluation and documented integration of NeoMundi runtime measurements in a PubMedQA experimental setting.
