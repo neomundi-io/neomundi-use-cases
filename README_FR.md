@@ -17,7 +17,7 @@ Le statut décrit le périmètre documenté d’un pilote, pas une validation g�
 | Cas d’usage | Technologie partenaire | Fonction | Statut | Niveau de preuve | Ce que cela démontre | Preuve publique |
 | --- | --- | --- | --- | --- | --- | --- |
 | Preuves pour l’assurance et l’analyse du risque | AI Business / Express Test Purchase | Observations indépendantes pour examen par l’assureur | Pilot in progress | Évaluation en cours ; aucun résultat assurantiel final | Évalue la complémentarité des preuves ; l’assureur évalue le risque | Aucune preuve assurantielle dédiée ; [audit contrôlé connexe](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity) |
-| Contrôle et routage agentiques | OmarAGI / REVAS | Consommation du signal par une orchestration indépendante | Validated pilot · MVP | Statut documenté ; preuves publiques détaillées indisponibles ici | Périmètre documenté : orchestration consommant un signal externe | Aucun dépôt public NeoMundi dédié identifié |
+| Contrôle et routage agentiques | OmarAGI / REVAS | Consommation du signal par une orchestration indépendante | Pilot 01 documented · Pilot 02 live planned | Cinq cas synthétiques NeoMundi ; aucune fiabilité générale ni validation de production | Transformation de signaux synthétiques en artefacts REVAS d’admissibilité pré-action | [Dépôt partenaire](https://github.com/effacermonexistence/omaragi-neomundi-pilot) |
 | Politique et application | OASSE / FAM / Gatekeeper | Politique déterministe et application externe | Validated pilot | Pilote documenté | La mesure peut alimenter des couches distinctes de politique et d’application | [Dépôt](https://github.com/neomundi-io/use-case-oasse-runtime-governance) |
 | Audit contrôlé d’un agent IA | AI Business / Express Test Purchase | Mesure runtime et conformité du reçu | Validated pilot | Environnement de référence synthétique contrôlé | Les enregistrements séparés de la même exécution peuvent être recoupés | [Dépôt](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity) |
 | Reconstruction de preuves | FactNotebook | Ingestion de la mesure et de sa provenance | Validated pilot | Expérience PubMedQA documentée | Un système indépendant peut reconstruire des preuves en préservant la provenance | [Dépôt](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa) |
@@ -37,9 +37,9 @@ Aucune preuve assurantielle dédiée ; [audit contrôlé connexe](https://github
 
 ### 02 · OmarAGI / REVAS — Contrôle et routage agentiques
 
-**Validated pilot · MVP.** Le périmètre documenté est la consommation du signal NeoMundi par une orchestration indépendante. Cet index reprend uniquement le statut : les résultats détaillés et l’architecture ne sont pas inclus, et aucun dépôt public NeoMundi dédié aux preuves n’a été identifié. Ce statut n’établit pas une fiabilité générale de l’orchestration.
+**Pilot 01 documented · Pilot 02 live planned.** Pilot 01 documente la transformation de cinq cas synthétiques d’observabilité runtime NeoMundi en artefacts REVAS d’admissibilité pré-action. Pilot 02 est un test live avec ControlTower planifié ; il n’est pas présenté comme terminé. Ces preuves se limitent aux cas synthétiques documentés et n’établissent ni fiabilité générale ni validation de production.
 
-Aucun dépôt public NeoMundi dédié identifié.
+[Dépôt partenaire](https://github.com/effacermonexistence/omaragi-neomundi-pilot).
 
 ### 03 · OASSE / FAM / Gatekeeper — Politique et application
 
@@ -121,6 +121,7 @@ Ces cas n’établissent ni certification générale, ni vérité factuelle, ni 
 ## Preuves et dépôts publics
 
 - [AI Business](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity)
+- [OmarAGI / REVAS — dépôt partenaire](https://github.com/effacermonexistence/omaragi-neomundi-pilot)
 - [OASSE](https://github.com/neomundi-io/use-case-oasse-runtime-governance)
 - [FactNotebook](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa)
 - [ManChine — référence architecturale](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility)

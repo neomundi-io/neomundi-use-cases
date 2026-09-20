@@ -17,7 +17,7 @@ Status describes the documented scope of a pilot, not general validation of a pa
 | Use case | Partner technology | Function | Status | Evidence level | What it demonstrates | Public evidence |
 | --- | --- | --- | --- | --- | --- | --- |
 | Insurance and risk evidence | AI Business / Express Test Purchase | Independent observations for underwriting review | Pilot in progress | Evaluation in progress; no final insurance result | Evaluates complementary evidence; risk assessment belongs to the underwriter | No dedicated insurance evidence; [related controlled audit](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity) |
-| Agentic control and routing | OmarAGI / REVAS | Signal consumption by independent orchestration | Validated pilot · MVP | Status documented; detailed public evidence unavailable here | Documented scope: orchestration consuming an external signal | No dedicated public NeoMundi repository identified |
+| Agentic control and routing | OmarAGI / REVAS | Signal consumption by independent orchestration | Pilot 01 documented · Pilot 02 live planned | Five synthetic NeoMundi cases; no general reliability or production validation | Transformation of synthetic signals into REVAS pre-action admissibility artifacts | [Partner repository](https://github.com/effacermonexistence/omaragi-neomundi-pilot) |
 | Policy and enforcement | OASSE / FAM / Gatekeeper | Deterministic policy and external enforcement | Validated pilot | Documented pilot | Measurement can feed separate policy and enforcement layers | [Repository](https://github.com/neomundi-io/use-case-oasse-runtime-governance) |
 | Controlled AI agent audit | AI Business / Express Test Purchase | Runtime measurement and receipt conformity | Validated pilot | Controlled synthetic reference environment | Separate records of the same execution can be cross-referenced | [Repository](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity) |
 | Evidence reconstruction | FactNotebook | Ingest measurement and provenance | Validated pilot | Documented PubMedQA experiment | An independent system can reconstruct evidence while preserving provenance | [Repository](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa) |
@@ -37,9 +37,9 @@ No dedicated insurance evidence; [related controlled audit](https://github.com/n
 
 ### 02 · OmarAGI / REVAS — Agentic control and routing
 
-**Validated pilot · MVP.** The documented scope is consumption of the NeoMundi signal by independent orchestration. This index records the status only: detailed results and architecture are not included, and no dedicated public NeoMundi evidence repository has been identified. This status does not establish general orchestration reliability.
+**Pilot 01 documented · Pilot 02 live planned.** Pilot 01 documents the transformation of five synthetic NeoMundi runtime observability cases into REVAS pre-action admissibility artifacts. Pilot 02 is a planned live test with ControlTower; it is not presented as completed. This evidence is limited to the documented synthetic cases and establishes neither general reliability nor production validation.
 
-No dedicated public NeoMundi repository identified.
+[Partner repository](https://github.com/effacermonexistence/omaragi-neomundi-pilot).
 
 ### 03 · OASSE / FAM / Gatekeeper — Policy and enforcement
 
@@ -121,6 +121,7 @@ These cases do not establish general certification, factual truth, regulatory co
 ## Public evidence and repositories
 
 - [AI Business](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity)
+- [OmarAGI / REVAS — partner repository](https://github.com/effacermonexistence/omaragi-neomundi-pilot)
 - [OASSE](https://github.com/neomundi-io/use-case-oasse-runtime-governance)
 - [FactNotebook](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa)
 - [ManChine — architectural reference](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility)
