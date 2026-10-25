@@ -1,3 +1,5 @@
+> **Explore Evidence:** [pilots, Observatory work, methods and historical sources](https://github.com/neomundi-io/neomundi-station-public/blob/main/EVIDENCE.md). This repository retains its original artifacts and scope. Future Station results will be identified separately.
+
 [Français](./README_FR.md)
 
 # NeoMundi Use Cases
