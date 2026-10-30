@@ -94,4 +94,4 @@ Un artefact public manquant n’est pas remplacé par un statut. Les preuves syn
 
 Un pilote utile commence par une question bornée, des responsabilités explicites, un protocole reproductible et une formulation claire de ce que les preuves ne permettent pas d’établir.
 
-[Proposer un cas d’usage dans les issues du dépôt](https://github.com/neomundi-io/neomundi-use-cases/issues/new). Ne publiez ni secret, ni donnée personnelle, ni archive expérimentale privée.
+[Proposer un cas d’usage dans les issues du dépôt](https://github.com/neomundi-io/neomundi-use-cases/issues). Ne publiez ni secret, ni donnée personnelle, ni archive expérimentale privée.
