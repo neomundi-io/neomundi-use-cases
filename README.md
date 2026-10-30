@@ -10,10 +10,10 @@ NeoMundi produces independent runtime measurement signals. Partner systems may i
 
 ## Explore NeoMundi
 
-[**Station** — Observe & experiment](https://github.com/neomundi-io/neomundi-station-public) ·
-[**Runtime Measurement** — Measure & integrate](https://github.com/neomundi-io/neomundi-runtime-measurement) ·
-[**Use Cases** — Applications, pilots & evidence](https://github.com/neomundi-io/neomundi-use-cases) ·
-[**Create an Account** — ControlTower](https://controltower.neomundi.io/welcome)
+[![Station — Observe & experiment](https://img.shields.io/badge/Station-Observe_%26_experiment-7c3aed?style=flat-square)](https://github.com/neomundi-io/neomundi-station-public)
+[![Runtime Measurement — Measure & integrate](https://img.shields.io/badge/Runtime_Measurement-Measure_%26_integrate-2563eb?style=flat-square)](https://github.com/neomundi-io/neomundi-runtime-measurement)
+[![Use Cases — Applications, pilots & evidence](https://img.shields.io/badge/Use_Cases-Applications%2C_pilots_%26_evidence-059669?style=flat-square)](https://github.com/neomundi-io/neomundi-use-cases)
+[![Create an Account — ControlTower](https://img.shields.io/badge/Create_an_Account-ControlTower-ea580c?style=flat-square)](https://controltower.neomundi.io/welcome)
 
 ## Explore by use case
 
@@ -53,8 +53,15 @@ Status applies only to the documented scope. It does not validate a partner tech
 | **08** | Admissibility and execution continuity | ManChine / RGE-01 / REB-01 / RiCo-01 | Supplies runtime observational evidence | RGE-01 evaluates admissibility before activation; REB-01 governs the execution boundary; RiCo-01 addresses continuity after activation | Architecture documented · validation pending | **E1** | No completed run | The architecture and sample payloads are public; a complete machine-to-machine exchange is not. [Repository](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility). |
 | **09** | RAG runtime quality detection | Kabbalah App / RAG Test Bench | Produces runtime measurement signals during the evaluation | The test bench owns retrieval, scoring, diagnosis and model choices | Bounded field test documented | **E3** | Study: 23 Aug 2026 · report: 20 Sep 2026 | The report documents 60 instrumented generations per round, with reported alerts falling from 45/60 to 1/60 after correction. The private harness, questions, scoring mappings and raw package are not public. [Evidence summary](./evidence/kabbalah-app-rag/README.md). |
 | **10** | Signed signal verification | VERITAS | Produces signed RGC observations | VERITAS verifies evidence under its trust policy and retains governance and execution authority | Adapter validated · real live proof pending | **E2** | No public closure of the real-observation PoC | Adapter and synthetic paths are documented. No real NeoMundi observation is published in the partner repository. [Adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [real-observation PoC runbook](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
-| **11** | Measurement uncertainty and evaluator repeatability | Dr Islam Gouda | Measurement research | External research authority remains separate | **In progress** | **E0 — no public result claimed** | Not reported | Object and status only. No result, experimental detail or dedicated repository is published here. |
-| **12** | Document-grounded AI evaluation and measurement diagnostics | Farzad Abbasi / AEGIS | Measurement diagnostics | External evaluation authority remains separate | **In progress** | **E0 — no public result claimed** | Not reported | Object and status only. No result, experimental detail or dedicated repository is published here. |
+
+## Ongoing studies
+
+These studies are in progress. No result or evidence level is assigned here.
+
+| Study | Object | Status |
+| --- | --- | --- |
+| Dr Islam Gouda | Measurement uncertainty and evaluator repeatability | In progress |
+| Farzad Abbasi — AEGIS | Document-grounded AI evaluation and measurement diagnostics | In progress |
 
 ## What has been demonstrated
 
@@ -74,7 +81,7 @@ This index does not establish:
 - factual truth or medical validity;
 - superiority of a model or partner technology;
 - independent reproduction of any listed result;
-- a public result for DriftShield, SEILX, Dr Islam Gouda or AEGIS;
+- a public result for DriftShield or SEILX;
 - completed live interoperability for ManChine or the real-observation VERITAS path.
 
 A missing public artifact is not replaced by a status label. Synthetic, controlled, single-execution and report-only evidence must remain identified as such.
