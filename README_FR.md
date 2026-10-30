@@ -1,139 +1,97 @@
-> **Explorer les preuves :** [pilotes, Observatoire, méthodes et travaux historiques](https://github.com/neomundi-io/neomundi-station-public/blob/main/EVIDENCE.fr.md). Ce dépôt conserve ses pièces et son périmètre d'origine. Les futurs résultats Station seront distingués de ces travaux.
-
 [English](./README.md)
 
-# Cas d’usage NeoMundi
+# Des mesures d'IA aux preuves examinables
 
-**Une primitive de mesure. Plusieurs applications. Plusieurs infrastructures.**
+**Une primitive de mesure. Plusieurs applications. Des frontières explicites.**
 
-**NeoMundi apporte le signal. Chaque système externe conserve l’interprétation, les politiques et l’autorité d’action.**
+NeoMundi produit des signaux indépendants de mesure runtime. Les systèmes partenaires peuvent interpréter ces signaux, les combiner avec leurs propres preuves et décider ou agir sous leur propre autorité.
 
-Cet index public canonique rassemble les cas d’usage NeoMundi et leurs preuves d’interopérabilité. NeoMundi mesure le comportement runtime et apporte un signal indépendant. Les partenaires conservent les décisions, l’autorité opérationnelle et les mécanismes d’exécution.
+> **La mesure n’est pas l’interprétation. L’interprétation n’est pas une décision. Un signal n’est pas une permission d’agir.**
 
-D’une intuition, le 27 septembre 2025, à nos premiers pilotes et partenaires.
+## Explorer NeoMundi
 
-## Vue d’ensemble
+[**Station** — Observer et expérimenter](https://github.com/neomundi-io/neomundi-station-public) ·
+[**Runtime Measurement** — Mesurer et intégrer](https://github.com/neomundi-io/neomundi-runtime-measurement) ·
+[**Use Cases** — Applications, pilotes et preuves](https://github.com/neomundi-io/neomundi-use-cases) ·
+[**Créer un compte** — ControlTower](https://controltower.neomundi.io/welcome)
 
-Le statut décrit le périmètre documenté d’un pilote, pas une validation générale de la technologie partenaire. La disponibilité des preuves est indiquée séparément. Mise à jour : 20 septembre 2026.
+## Explorer par usage
 
-| Cas d’usage | Technologie partenaire | Fonction | Statut | Niveau de preuve | Ce que cela démontre | Preuve publique |
-| --- | --- | --- | --- | --- | --- | --- |
-| Preuves pour l’assurance et l’analyse du risque | AI Business / Express Test Purchase | Observations indépendantes pour examen par l’assureur | Pilot in progress | Évaluation en cours ; aucun résultat assurantiel final | Évalue la complémentarité des preuves ; l’assureur évalue le risque | Aucune preuve assurantielle dédiée ; [audit contrôlé connexe](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity) |
-| Contrôle et routage agentiques | OmarAGI / REVAS | Consommation du signal par une orchestration indépendante | Pilot 01 documented · Pilot 02 live planned | Cinq cas synthétiques NeoMundi ; aucune fiabilité générale ni validation de production | Transformation de signaux synthétiques en artefacts REVAS d’admissibilité pré-action | [Dépôt partenaire](https://github.com/effacermonexistence/omaragi-neomundi-pilot) |
-| Politique et application | OASSE / FAM / Gatekeeper | Politique déterministe et application externe | Validated pilot | Pilote documenté | La mesure peut alimenter des couches distinctes de politique et d’application | [Dépôt](https://github.com/neomundi-io/use-case-oasse-runtime-governance) |
-| Audit contrôlé d’un agent IA | AI Business / Express Test Purchase | Mesure runtime et conformité du reçu | Validated pilot | Environnement de référence synthétique contrôlé | Les enregistrements séparés de la même exécution peuvent être recoupés | [Dépôt](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity) |
-| Reconstruction de preuves | FactNotebook | Ingestion de la mesure et de sa provenance | Validated pilot | Expérience PubMedQA documentée | Un système indépendant peut reconstruire des preuves en préservant la provenance | [Dépôt](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa) |
-| Observabilité parallèle | DriftShield / HIC | Observation indépendante de la même exécution | Validated minimum pilot | Une exécution réelle ; preuves publiques détaillées indisponibles ici | Observations distinctes et recoupables sans partage de la réponse brute | Aucun dépôt public NeoMundi dédié identifié |
-| Gouvernance par des preuves vérifiables | SEILX | Capture, préservation et ancrage temporel | Pilot in progress | Évaluation en cours ; aucun résultat final | Évalue la vérification ultérieure de l’intégrité et de la provenance | Aucun dépôt public NeoMundi dédié identifié |
-| Admissibilité et continuité d’exécution | ManChine / RGE-01 / REB-01 / RiCo-01 | Séparation de l’observation, de la continuité, de la détermination et de l’application | Architecture documented · Validation in progress | Documentation architecturale | Les responsabilités peuvent rester distinctes ; validation machine-à-machine complète en attente | [Dépôt](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility) |
-| Détection de la qualité runtime d’un RAG | Kabbalah App / RAG Test Bench | Détection d’une dégradation et observation du rétablissement | Validated field test | Rapport terrain public ; 60 générations instrumentées par manche rapportée | Le signal a précédé le diagnostic et reflété la stabilité accrue après correction | [Preuve et rapport](./evidence/kabbalah-app-rag/README_FR.md) |
-| Vérification d’un signal signé | VERITAS | Vérification indépendante d’observations RGC v0.2 signées | Adapter validated · Live interoperability pending | Adaptateur et vérification synthétique ; observation réelle signée en attente | Intégration de l’adaptateur documentée ; interopérabilité live complète non encore démontrée | [Dépôt](https://github.com/veritasfuji-japan/veritas_os) |
+- **Preuve et audit :** AI Business, FactNotebook, SEILX
+- **Politique et exécution indépendantes :** OASSE, ManChine, VERITAS
+- **Observabilité et qualité :** DriftShield, Kabbalah App
+- **Routage agentique :** OmarAGI / REVAS
+- **Recherche sur la mesure :** Dr Islam Gouda, Farzad Abbasi / AEGIS
 
-## Cas d’usage
+## Niveaux de preuve
 
-### 01 · AI Business / Express Test Purchase — Preuves pour l’assurance et l’analyse du risque
+Ces niveaux décrivent les preuves publiques disponibles pour un cas précis. Ce ne sont ni des certifications, ni des notes attribuées aux partenaires, ni une échelle universelle de maturité.
 
-**Pilot in progress.** NeoMundi et Express Test Purchase observent indépendamment la même exécution. NeoMundi mesure le comportement runtime ; Express Test Purchase recoupe permissions, actions, journaux et reçus. Leurs enregistrements restent séparés et peuvent être mis en correspondance pour examen. Il ne s’agit pas d’une chaîne de traitement séquentielle. Le pilote évalue des preuves complémentaires pour l’assureur. L’évaluation du risque appartient à l’assureur, ou underwriter. L’audit contrôlé ci-dessous n’établit pas de résultat assurantiel.
-
-Aucune preuve assurantielle dédiée ; [audit contrôlé connexe](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity).
-
-### 02 · OmarAGI / REVAS — Contrôle et routage agentiques
-
-**Pilot 01 documented · Pilot 02 live planned.** Pilot 01 documente la transformation de cinq cas synthétiques d’observabilité runtime NeoMundi en artefacts REVAS d’admissibilité pré-action. Pilot 02 est un test live avec ControlTower planifié ; il n’est pas présenté comme terminé. Ces preuves se limitent aux cas synthétiques documentés et n’établissent ni fiabilité générale ni validation de production.
-
-[Dépôt partenaire](https://github.com/effacermonexistence/omaragi-neomundi-pilot).
-
-### 03 · OASSE / FAM / Gatekeeper — Politique et application
-
-**Validated pilot.** NeoMundi mesure. La couche de politique OASSE applique des règles déterministes : **OASSE policy layer applies deterministic rules**. Gatekeeper applique les verdicts **ALLOW / TRANSFORM / HOLD / DENY**. Les politiques, les décisions et leur application restent externes à NeoMundi. Le pilote documenté étaye cette séparation dans son périmètre testé, pas la validité générale des politiques.
-
-[Dépôt](https://github.com/neomundi-io/use-case-oasse-runtime-governance).
-
-### 04 · AI Business / Express Test Purchase — Audit contrôlé d’un agent IA
-
-**Validated pilot.** NeoMundi enregistre les mesures runtime tandis qu’Express Test Purchase vérifie indépendamment la même exécution à travers les actions de l’agent, le journal autoritatif et le reçu. Les enregistrements restent séparés et recoupables ; aucun ne remplace l’autre. La mesure comportementale et la conformité du reçu sont des variables distinctes. Le validateur métier reste externe à NeoMundi. La preuve concerne un environnement de référence synthétique, pas une fiabilité générale des agents ni une validation assurantielle.
-
-[Dépôt](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity).
-
-### 05 · FactNotebook — Reconstruction de preuves
-
-**Validated pilot.** FactNotebook ingère les mesures NeoMundi et leur provenance pour reconstruire des objets de preuve et de gouvernance. L’expérience PubMedQA documente une intégration sans altération de la provenance. La reconstruction de preuves n’établit pas à elle seule la vérité factuelle ni une validité médicale générale.
-
-[Dépôt](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa).
-
-### 06 · DriftShield / HIC — Observabilité parallèle
-
-**Validated minimum pilot.** NeoMundi et DriftShield/HIC ont observé indépendamment une exécution réelle. Les observations sont restées distinctes et recoupables sans partage de la réponse brute ni modification de l’autorité X/Y/Z existante. La preuve se limite à cette exécution unique ; elle n’établit ni répétabilité, ni performance à l’échelle de la production, ni interopérabilité générale. Aucun dossier public de preuves dédié n’est disponible ici.
-
-Aucun dépôt public NeoMundi dédié identifié.
-
-### 07 · SEILX — Gouvernance par des preuves vérifiables
-
-**Pilot in progress.** Le pilote évalue la capture, la préservation et l’ancrage temporel par SEILX des artefacts associés à une observation NeoMundi, pour vérifier ultérieurement l’intégrité et la provenance. Aucun résultat final n’est revendiqué. L’intégrité d’une preuve est distincte de la vérité du contenu observé et d’une permission opérationnelle.
-
-Aucun dépôt public NeoMundi dédié identifié.
-
-### 08 · ManChine / RGE-01 / REB-01 / RiCo-01 — Admissibilité et continuité d’exécution
-
-**Architecture documented · Validation in progress.** NeoMundi observe les conditions runtime. RiCo-01 vérifie la continuité de la correspondance de gouvernance runtime et identifie l’effet éventuel sur la portabilité de la gouvernance antérieure. RGE-01 produit une nouvelle **Admissibility Determination** lorsqu’un nouveau point de décision existe. REB-01 applique l’état de gouvernance applicable à la frontière d’exécution conséquente.
-
-Le dépôt lié constitue une référence architecturale. La validation machine-à-machine complète n’est pas encore disponible. RiCo ne produit pas l’Admissibility Determination ; l’observation ne confère aucune autorité d’exécution à NeoMundi.
-
-[Dépôt](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility).
-
-### 09 · Kabbalah App / RAG Test Bench — Détection de la qualité runtime d’un RAG
-
-**Validated field test.** Une évaluation RAG bilingue orientée production a instrumenté 60 générations par manche rapportée. Les alertes sont passées de **45/60** avant correction du prompt à **1/60** après correction ; la stabilité moyenne est passée de **0.68–0.77** à **0.915–0.923**.
-
-> Dans ce banc d’essai RAG, le signal runtime NeoMundi a détecté une dégradation réelle avant que sa cause technique soit identifiée, puis a reflété le retour à un comportement plus stable après correction.
-
-NeoMundi n’a pas désigné le meilleur modèle. Un composant d’évaluation appartenait à une famille de modèles incluse dans la comparaison ; la longueur des réponses affectait également le classement de génération. Les prompts longs et la latence imposaient des contraintes d’intégration. Ces observations sont propres à ce banc d’essai et ne garantissent pas une exactitude générale.
-
-[Preuve et rapport](./evidence/kabbalah-app-rag/README_FR.md).
-
-### 10 · VERITAS — Vérification d’un signal signé
-
-**Adapter validated · Live interoperability pending.** L’état documenté est un adaptateur NeoMundi RGC v0.2 intégré, une validation après fusion verte et un chemin de vérification synthétique testé dans VERITAS. L’objectif est la vérification indépendante d’une observation NeoMundi réelle et signée, suivie de l’évaluation de gouvernance de VERITAS et d’un reçu auditable ou Evidence Packet. L’interopérabilité live complète n’a pas encore été démontrée. Vérification de signature, évaluation de gouvernance et permission d’exécution restent des responsabilités distinctes.
-
-[Dépôt](https://github.com/veritasfuji-japan/veritas_os).
-
-## Maturité et preuves
-
-Ces libellés qualifient un périmètre précis ; ils ne constituent ni des certifications ni une échelle universelle de progression. Les preuves publiques peuvent être moins avancées que le statut documenté du pilote. Les libellés anglais sont conservés pour assurer la correspondance exacte entre les deux versions.
-
-| Libellé | Signification |
+| Niveau | Signification |
 | --- | --- |
-| Architecture documented | Architecture documentée : responsabilités et interfaces décrites ; cela ne démontre pas à lui seul une intégration live. |
-| Pilot in progress | Pilote en cours : évaluation en cours ; aucun résultat final établi. |
-| Controlled run completed | Exécution contrôlée terminée : essai borné dans des conditions définies ; aucune validation générale ou à l’échelle de la production n’en découle. |
-| Validated minimum pilot | Pilote minimal validé : interaction minimale démontrée ; pour DriftShield/HIC, une seule exécution réelle. |
-| Validated pilot | Pilote validé : objectif annoncé démontré dans le périmètre documenté ; la technologie partenaire n’est pas validée en général. |
-| Live interoperability pending | Interopérabilité live en attente : échange complet avec une observation réelle encore à démontrer, même si un adaptateur ou un chemin synthétique fonctionne. |
-| Validated field test | Test terrain validé : observation bornée documentée dans une évaluation terrain ; ici, dégradation RAG et rétablissement après correction. |
-| Adapter validated | Adaptateur validé : contrôles de l’adaptateur et chemin de vérification synthétique documentés ; cela ne remplace pas la preuve d’interopérabilité live. |
+| **E0 — Déclaré** | L’objet et le statut sont publics, mais aucun résultat n’est revendiqué ni publiquement étayé. |
+| **E1 — Documenté** | Une architecture, un plan ou un compte rendu est public ; aucune exécution publique achevée n’est démontrée. |
+| **E2 — Exécution contrôlée** | Des artefacts examinables documentent une exécution synthétique ou contrôlée. |
+| **E3 — Observation réelle bornée** | Des preuves publiques documentent des données réelles ou une exécution réelle bornée, avec ses limites. |
+| **E4 — Reproduction indépendante** | Un tiers peut reproduire indépendamment le résultat à partir du protocole et des matériaux publiés. |
 
-## Ce que cela prouve
+Aucun cas de cet index n’est actuellement présenté comme E4.
 
-Dans les périmètres documentés, une même primitive de mesure peut servir des fonctions distinctes d’orchestration, de politique, de preuve, d’observabilité et de diagnostic. Les artefacts liés distinguent les tests terminés, les références architecturales et les évaluations en cours. La mesure peut rester indépendante des systèmes qui l’interprètent et agissent.
+## Index des pilotes
 
-## Ce que cela ne prouve pas
+Le statut s’applique uniquement au périmètre documenté. Il ne valide pas globalement la technologie d’un partenaire et n’établit pas une disponibilité en production.
 
-Ces cas n’établissent ni certification générale, ni vérité factuelle, ni conformité réglementaire, ni assurabilité, ni fiabilité à l’échelle de la production, ni supériorité d’un modèle ou d’un partenaire. Un signal ou une observation signée n’est pas une autorisation. Les libellés de statut ne remplacent pas les artefacts publics manquants ; les tests synthétiques ou sur une exécution unique n’établissent pas une interopérabilité live générale.
+| # | Cas d’usage | Technologie partenaire | Rôle de NeoMundi | Autorité partenaire | Statut | Preuve | Dernière vérification identifiable | Preuves publiques et limites |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **01** | Preuves pour l’assurance et l’analyse du risque | AI Business / Express Test Purchase | Mesure runtime indépendante | Recoupe permissions, actions, journaux et reçus ; l’assureur évalue le risque | En cours | **E0** | Non indiquée | Aucun résultat assurantiel dédié. L’[audit contrôlé connexe](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity) n’établit ni assurabilité ni décision de souscription. |
+| **02** | Contrôle et routage agentiques | OmarAGI / REVAS | Fournit des exemples synthétiques d’observation runtime | REVAS produit ses propres artefacts d’admissibilité pré-action | Pilote 01 documenté · Pilote 02 planifié | **E2** | Date d’exécution non indiquée | Cinq cas synthétiques sont documentés. Aucun résultat live du Pilote 02, aucune validation de production ni conclusion générale de fiabilité. [Dépôt partenaire](https://github.com/effacermonexistence/omaragi-neomundi-pilot). |
+| **03** | Politique et enforcement | OASSE / FAM / Gatekeeper | Produit des mesures runtime et des classifications historiques de couche de mesure | FAM applique la politique déterministe ; Gatekeeper détermine le traitement opérationnel en aval et scelle les preuves | Pilote contrôlé validé | **E3** | 29 juillet et 4 août 2026 | Runs contrôlés de 1 000 et 60 requêtes. Les valeurs historiques **ALLOW/FLAG** sont des classifications de mesure, pas des permissions d’exécution. [Dépôt](https://github.com/neomundi-io/use-case-oasse-runtime-governance). |
+| **04** | Audit contrôlé d’un agent IA | AI Business / Express Test Purchase | Mesure l’observation de validation soumise | Le journal autoritatif enregistre l’exécution ; un validateur déterministe évalue la conformité du reçu | Pilote contrôlé validé | **E2** | 3–4 août 2026 | Trois runs de référence contrôlés, dont une preuve de reçu propre et une volontairement défaillante. L’environnement est synthétique et n’établit pas la fiabilité générale de l’agent. [Dépôt](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity). |
+| **05** | Reconstruction de preuve | FactNotebook | Mesure cinq générations GPT‑4o et exporte les observations runtime | FactNotebook reconstruit ce que les observations permettent d’établir ; une autorité humaine responsable décide | Pilote borné terminé | **E3** | Export runtime : 25 juillet 2026 · manifeste partenaire : 7 août 2026 | Cinq cas PubMedQA ont été ingérés. Le partenaire publie les sorties, pas son moteur de reconstruction ; le travail n’est pas reproductible indépendamment et n’établit pas une vérité médicale. [Pilote NeoMundi](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa) · [reconstruction partenaire](https://github.com/factnotebook/public-reconstructions/tree/main/FN-NEOMUNDI-CTPUBMEDQA-001). |
+| **06** | Observabilité parallèle | DriftShield / HIC | Observe indépendamment la même exécution | Conserve sa propre observation et le modèle d’autorité X/Y/Z existant | Pilote minimal rapporté | **E1** | Non indiquée | Une exécution réelle est rapportée, mais aucun paquet public dédié, aucune réplication et aucun dépôt public ne sont identifiés ici. |
+| **07** | Gouvernance par des preuves vérifiables | SEILX | Produit une observation et les artefacts associés | Capture, préserve et ancre temporellement les artefacts pour des contrôles d’intégrité ultérieurs | En cours | **E0** | Non indiquée | Aucun résultat final ni paquet de preuve public dédié. L’intégrité et la provenance n’établissent ni vérité factuelle ni permission d’exécution. |
+| **08** | Admissibilité et continuité d’exécution | ManChine / RGE‑01 / REB‑01 / RiCo‑01 | Fournit une preuve observationnelle runtime | RGE‑01 évalue l’admissibilité avant activation ; REB‑01 gouverne la frontière d’exécution ; RiCo‑01 traite la continuité après activation | Architecture documentée · validation en attente | **E1** | Aucun run terminé | L’architecture et des payloads d’exemple sont publics ; un échange machine-à-machine complet ne l’est pas. [Dépôt](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility). |
+| **09** | Détection de qualité runtime RAG | Kabbalah App / RAG Test Bench | Produit des signaux de mesure runtime pendant l’évaluation | Le banc d’essai conserve le retrieval, la notation, le diagnostic et le choix des modèles | Test de terrain borné documenté | **E3** | Étude : 23 août 2026 · rapport : 20 septembre 2026 | Le rapport documente 60 générations instrumentées par manche, avec des alertes rapportées passant de 45/60 à 1/60 après correction. Le harness privé, les questions, les mappings de notation et le paquet brut ne sont pas publics. [Synthèse des preuves](./evidence/kabbalah-app-rag/README_FR.md). |
+| **10** | Vérification de signaux signés | VERITAS | Produit des observations RGC signées | VERITAS vérifie les preuves selon sa politique de confiance et conserve l’autorité de gouvernance et d’exécution | Adaptateur validé · preuve live réelle en attente | **E2** | Aucune clôture publique du PoC d’observation réelle | L’adaptateur et les chemins synthétiques sont documentés. Aucune observation NeoMundi réelle n’est publiée dans le dépôt partenaire. [Adaptateur](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [runbook du PoC réel](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
+| **11** | Incertitude de mesure et répétabilité des évaluateurs | Dr Islam Gouda | Recherche sur la mesure | L’autorité de recherche externe reste distincte | **En cours** | **E0 — aucun résultat public revendiqué** | Non indiquée | Objet et statut uniquement. Aucun résultat, détail expérimental ou dépôt dédié n’est publié ici. |
+| **12** | Évaluation documentaire et diagnostic des signaux de mesure | Farzad Abbasi / AEGIS | Diagnostic des signaux de mesure | L’autorité d’évaluation externe reste distincte | **En cours** | **E0 — aucun résultat public revendiqué** | Non indiquée | Objet et statut uniquement. Aucun résultat, détail expérimental ou dépôt dédié n’est publié ici. |
 
-## Preuves et dépôts publics
+## Ce qui a été démontré
 
-- [AI Business](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity)
-- [OmarAGI / REVAS — dépôt partenaire](https://github.com/effacermonexistence/omaragi-neomundi-pilot)
-- [OASSE](https://github.com/neomundi-io/use-case-oasse-runtime-governance)
-- [FactNotebook](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa)
-- [ManChine — référence architecturale](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility)
-- [Kabbalah App — preuve publique](./evidence/kabbalah-app-rag/README_FR.md) · [PDF (français)](./evidence/kabbalah-app-rag/NEOMUNDI_KABBALAH_APP_RAG_PUBLIC_EVIDENCE_REPORT_FR.pdf)
-- [VERITAS — dépôt partenaire](https://github.com/veritasfuji-japan/veritas_os)
+Dans les limites publiées :
 
-## NeoMundi
+- des systèmes tiers peuvent consommer des observations runtime NeoMundi tout en conservant une autorité séparée ;
+- des preuves contrôlées peuvent préserver la distinction entre mesure, conformité déterministe, politique et action en aval ;
+- des travaux bornés sur données ou exécutions réelles sont documentés pour OASSE, FactNotebook et Kabbalah App ;
+- des chemins synthétiques ou contrôlés sont documentés pour OmarAGI / REVAS, AI Business et VERITAS ;
+- la séparation architecturale est documentée pour ManChine.
 
-- [NeoMundi — applications et pilotes](https://neomundi.io/)
-- [NeoMundi Research](https://neomundi.org/)
-- [Contrat d’interopérabilité runtime](https://github.com/neomundi-io/runtime-interoperability-contract)
-- [ControlTower](https://controltower.neomundi.io/welcome)
-- [Observatoire IA NeoMundi](https://github.com/neomundi-io/neomundi-ai-observatory)
+## Ce qui reste non vérifié
+
+Cet index n’établit pas :
+
+- une certification, une conformité réglementaire, une assurabilité ou une fiabilité à l’échelle de la production ;
+- une vérité factuelle ou une validité médicale ;
+- la supériorité d’un modèle ou d’une technologie partenaire ;
+- la reproduction indépendante d’un résultat présenté ;
+- un résultat public pour DriftShield, SEILX, Dr Islam Gouda ou AEGIS ;
+- une interopérabilité live achevée pour ManChine ou le chemin d’observation réelle de VERITAS.
+
+Un artefact public manquant n’est pas remplacé par un statut. Les preuves synthétiques, contrôlées, limitées à une exécution ou limitées à un rapport doivent rester identifiées comme telles.
+
+## Preuves détaillées
+
+- [AI Business — audit contrôlé d’un agent](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity)
+- [OmarAGI / REVAS — pilote partenaire](https://github.com/effacermonexistence/omaragi-neomundi-pilot)
+- [OASSE — gouvernance runtime](https://github.com/neomundi-io/use-case-oasse-runtime-governance)
+- [FactNotebook — pilote NeoMundi](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa)
+- [FactNotebook — reconstruction partenaire bornée](https://github.com/factnotebook/public-reconstructions/tree/main/FN-NEOMUNDI-CTPUBMEDQA-001)
+- [ManChine — de l’observation à l’admissibilité](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility)
+- [Kabbalah App — synthèse publique des preuves](./evidence/kabbalah-app-rag/README_FR.md)
+- [VERITAS — adaptateur RGC v0.2](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md)
+
+## Proposer un pilote
+
+Un pilote utile commence par une question bornée, des responsabilités explicites, un protocole reproductible et une formulation claire de ce que les preuves ne permettent pas d’établir.
+
+[Proposer un cas d’usage dans les issues du dépôt](https://github.com/neomundi-io/neomundi-use-cases/issues). Ne publiez ni secret, ni donnée personnelle, ni archive expérimentale privée.
