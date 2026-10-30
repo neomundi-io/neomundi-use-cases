@@ -10,10 +10,10 @@ NeoMundi produit des signaux indépendants de mesure runtime. Les systèmes part
 
 ## Explorer NeoMundi
 
-[**Station** — Observer et expérimenter](https://github.com/neomundi-io/neomundi-station-public) ·
-[**Runtime Measurement** — Mesurer et intégrer](https://github.com/neomundi-io/neomundi-runtime-measurement) ·
-[**Use Cases** — Applications, pilotes et preuves](https://github.com/neomundi-io/neomundi-use-cases) ·
-[**Créer un compte** — ControlTower](https://controltower.neomundi.io/welcome)
+[![Station — Observer et expérimenter](https://img.shields.io/badge/Station-Observer_%26_experimenter-7c3aed?style=flat-square)](https://github.com/neomundi-io/neomundi-station-public)
+[![Runtime Measurement — Mesurer et intégrer](https://img.shields.io/badge/Runtime_Measurement-Mesurer_%26_integrer-2563eb?style=flat-square)](https://github.com/neomundi-io/neomundi-runtime-measurement)
+[![Use Cases — Applications, pilotes et preuves](https://img.shields.io/badge/Use_Cases-Applications%2C_pilotes_%26_preuves-059669?style=flat-square)](https://github.com/neomundi-io/neomundi-use-cases)
+[![Créer un compte — ControlTower](https://img.shields.io/badge/Creer_un_compte-ControlTower-ea580c?style=flat-square)](https://controltower.neomundi.io/welcome)
 
 ## Explorer par usage
 
@@ -53,8 +53,15 @@ Le statut s’applique uniquement au périmètre documenté. Il ne valide pas gl
 | **08** | Admissibilité et continuité d’exécution | ManChine / RGE‑01 / REB‑01 / RiCo‑01 | Fournit une preuve observationnelle runtime | RGE‑01 évalue l’admissibilité avant activation ; REB‑01 gouverne la frontière d’exécution ; RiCo‑01 traite la continuité après activation | Architecture documentée · validation en attente | **E1** | Aucun run terminé | L’architecture et des payloads d’exemple sont publics ; un échange machine-à-machine complet ne l’est pas. [Dépôt](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility). |
 | **09** | Détection de qualité runtime RAG | Kabbalah App / RAG Test Bench | Produit des signaux de mesure runtime pendant l’évaluation | Le banc d’essai conserve le retrieval, la notation, le diagnostic et le choix des modèles | Test de terrain borné documenté | **E3** | Étude : 23 août 2026 · rapport : 20 septembre 2026 | Le rapport documente 60 générations instrumentées par manche, avec des alertes rapportées passant de 45/60 à 1/60 après correction. Le harness privé, les questions, les mappings de notation et le paquet brut ne sont pas publics. [Synthèse des preuves](./evidence/kabbalah-app-rag/README_FR.md). |
 | **10** | Vérification de signaux signés | VERITAS | Produit des observations RGC signées | VERITAS vérifie les preuves selon sa politique de confiance et conserve l’autorité de gouvernance et d’exécution | Adaptateur validé · preuve live réelle en attente | **E2** | Aucune clôture publique du PoC d’observation réelle | L’adaptateur et les chemins synthétiques sont documentés. Aucune observation NeoMundi réelle n’est publiée dans le dépôt partenaire. [Adaptateur](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [runbook du PoC réel](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
-| **11** | Incertitude de mesure et répétabilité des évaluateurs | Dr Islam Gouda | Recherche sur la mesure | L’autorité de recherche externe reste distincte | **En cours** | **E0 — aucun résultat public revendiqué** | Non indiquée | Objet et statut uniquement. Aucun résultat, détail expérimental ou dépôt dédié n’est publié ici. |
-| **12** | Évaluation documentaire et diagnostic des signaux de mesure | Farzad Abbasi / AEGIS | Diagnostic des signaux de mesure | L’autorité d’évaluation externe reste distincte | **En cours** | **E0 — aucun résultat public revendiqué** | Non indiquée | Objet et statut uniquement. Aucun résultat, détail expérimental ou dépôt dédié n’est publié ici. |
+
+## Études en cours
+
+Ces études sont en cours. Aucun résultat ni niveau de preuve ne leur est attribué ici.
+
+| Étude | Objet | Statut |
+| --- | --- | --- |
+| Dr Islam Gouda | Incertitude de mesure et répétabilité des évaluateurs | En cours |
+| Farzad Abbasi — AEGIS | Évaluation documentaire et diagnostic des signaux de mesure | En cours |
 
 ## Ce qui a été démontré
 
@@ -74,7 +81,7 @@ Cet index n’établit pas :
 - une vérité factuelle ou une validité médicale ;
 - la supériorité d’un modèle ou d’une technologie partenaire ;
 - la reproduction indépendante d’un résultat présenté ;
-- un résultat public pour DriftShield, SEILX, Dr Islam Gouda ou AEGIS ;
+- un résultat public pour DriftShield ou SEILX ;
 - une interopérabilité live achevée pour ManChine ou le chemin d’observation réelle de VERITAS.
 
 Un artefact public manquant n’est pas remplacé par un statut. Les preuves synthétiques, contrôlées, limitées à une exécution ou limitées à un rapport doivent rester identifiées comme telles.
