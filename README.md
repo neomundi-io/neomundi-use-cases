@@ -94,4 +94,4 @@ A missing public artifact is not replaced by a status label. Synthetic, controll
 
 A useful pilot begins with a bounded question, explicit responsibilities, a reproducible protocol and a clear statement of what the evidence cannot establish.
 
-[Propose a use case through the repository issues](https://github.com/neomundi-io/neomundi-use-cases/issues/new). Do not include secrets, personal data or private experimental archives.
+[Propose a use case through the repository issues](https://github.com/neomundi-io/neomundi-use-cases/issues). Do not include secrets, personal data or private experimental archives.
