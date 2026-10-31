@@ -97,6 +97,18 @@ A missing public artifact is not replaced by a status label. Synthetic, controll
 - [Kabbalah App — public evidence summary](./evidence/kabbalah-app-rag/README.md)
 - [VERITAS — RGC v0.2 adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md)
 
+## Infrastructure & Program Support
+
+NeoMundi's independent AI observation and measurement initiative benefits from infrastructure and startup program support:
+
+- **[Infomaniak](https://www.infomaniak.com/)** — Infrastructure partner supporting the development of NeoMundi's independent AI observation instrument.
+- **[OVHcloud Startup Program](https://startup.ovhcloud.com/en/)** — NeoMundi participates in OVHcloud's startup support program.
+- **[NVIDIA Inception](https://www.nvidia.com/en-us/startups/)** — NeoMundi is a member of NVIDIA's program for innovative startups.
+
+These relationships support NeoMundi's development and do not imply certification or endorsement of its scientific results.
+
+---
+
 ## Propose a pilot
 
 A useful pilot begins with a bounded question, explicit responsibilities, a reproducible protocol and a clear statement of what the evidence cannot establish.
