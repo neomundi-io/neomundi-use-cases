@@ -69,8 +69,8 @@ Research collaborations are listed separately from product pilots. They document
 
 | Collaboration | Research question | Public evidence | Status and limits |
 | --- | --- | --- | --- |
-| **NeoMundi × ASRO — Runtime Governance Evidence** | Can behavioral measurement and governance-state witnessing remain independent without circular validation? | **E1** · [Bilingual research card](./collaborations/asro/runtime-governance-evidence.md) | Methodology documented; no completed scientific validation, certification or public execution package. |
-| **NeoMundi × ASRO — Independent Evidence Review, Round 2** | Can a third-party reviewer examine versioned and sealed measurement artifacts while roles remain separate? | **E1** · [Bilingual protocol card](./collaborations/asro/independent-evidence-review-round-2.md) | Protocol work is active; final freeze, execution, sealed record and independent review remain open. |
+| **NeoMundi × ASRO — Runtime Governance Evidence** | Can behavioral measurement and governance-state witnessing remain independent without circular validation? | **E1** · [Bilingual research card](./collaborations/asro/runtime-governance-evidence.md) · [Original repository](https://github.com/neomundi-io/runtime-governance-evidence) | Methodology documented; no completed scientific validation, certification or public execution package. |
+| **NeoMundi × ASRO — Independent Evidence Review, Round 2** | Can a third-party reviewer examine versioned and sealed measurement artifacts while roles remain separate? | **E1** · [Bilingual protocol card](./collaborations/asro/independent-evidence-review-round-2.md) · [Original repository](https://github.com/neomundi-io/neomundi-asro-round2-protocol) | Protocol work is active; final freeze, execution, sealed record and independent review remain open. |
 
 ASRO is not presented as NeoMundi's certification body. James/ASRO's contribution is limited here to the documented scope of proof discipline, governance-state witnessing, reviewability and authority separation.
 
