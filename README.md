@@ -63,6 +63,14 @@ Status applies only to the documented scope. It does not validate a partner tech
 | **09** | RAG runtime quality detection | Kabbalah App / RAG Test Bench | Produces runtime measurement signals during the evaluation | The test bench owns retrieval, scoring, diagnosis and model choices | Bounded field test documented | **E3** | Study: 23 Aug 2026 · report: 20 Sep 2026 | The report documents 60 instrumented generations per round, with reported alerts falling from 45/60 to 1/60 after correction. The private harness, questions, scoring mappings and raw package are not public. [Evidence summary](./evidence/kabbalah-app-rag/README.md). |
 | **10** | Signed signal verification | VERITAS | Produces signed RGC observations | VERITAS verifies evidence under its trust policy and retains governance and execution authority | Adapter validated · real live proof pending | **E2** | No public closure of the real-observation PoC | Adapter and synthetic paths are documented. No real NeoMundi observation is published in the partner repository. [Adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [real-observation PoC runbook](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
 
+## Partner integration — Hivolvia (private pilot)
+
+**Use case:** connect independent AI model/service monitoring to NeoMundi measurement signals. Stéphane Lauga reports that his cross-platform Rust connector, built for his own observability environment and adapted to the NeoMundi OBS API, has been delivered for evaluation. The connector is a **third-party implementation**, with source ownership, maintenance and remote pilot support retained by its developer.
+
+**Evidence level: E0 for independent qualification.** The developer reported a successful API exchange on 2 September 2026 and delivery of the connector on 18 September 2026; these are partner-reported milestones, not an independently reproduced test. A current-version end-to-end run, security assessment, signed pilot distribution terms and evidence of actual measurement consumption are not published. Evaluation is restricted to named pilots by agreement; no public download is offered. Public partner attribution remains subject to final confirmation.
+
+[Integration overview — Station](https://github.com/neomundi-io/neomundi-station-public#partner-integrations--private-pilots)
+
 ## Research collaborations
 
 Research collaborations are listed separately from product pilots. They document questions, methods, roles and limits; they are not customer references or certifications.
