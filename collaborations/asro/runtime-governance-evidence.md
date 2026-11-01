@@ -8,6 +8,8 @@
 **Public evidence level:** **E1 — Documented**  
 **Status:** research-stage methodology; no completed scientific validation or certification is claimed.
 
+**[Explore the original research repository](https://github.com/neomundi-io/runtime-governance-evidence)** · [Explorer le dépôt de recherche original](https://github.com/neomundi-io/runtime-governance-evidence)
+
 ### Problem
 
 Runtime AI governance can become circular when the system being observed also participates in describing or validating its own behavior. This work asks whether two independent observation layers can remain separate while producing complementary, reviewable evidence.
