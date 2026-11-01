@@ -1,19 +1,28 @@
 [English](./README.md)
 
-# Des mesures d'IA aux preuves examinables
+# Mesure indépendante de l’IA — Applications concrètes et collaborations de recherche
 
-**Une primitive de mesure. Plusieurs applications. Des frontières explicites.**
-
-NeoMundi produit des signaux indépendants de mesure runtime. Les systèmes partenaires peuvent interpréter ces signaux, les combiner avec leurs propres preuves et décider ou agir sous leur propre autorité.
+NeoMundi est un instrument indépendant de mesure runtime des systèmes d’IA. Il observe des signaux comportementaux bornés — notamment les variations de stabilité et de cohérence, les divergences et les indicateurs de risque factuel — sans transformer ces signaux en permissions, décisions de conformité ou affirmations de vérité.
 
 > **La mesure n’est pas l’interprétation. L’interprétation n’est pas une décision. Un signal n’est pas une permission d’agir.**
 
-## Explorer NeoMundi
+## Commencer ici
 
-[![Station — Observer et expérimenter](https://img.shields.io/badge/Station-Observer_%26_experimenter-7c3aed?style=flat-square)](https://github.com/neomundi-io/neomundi-station-public)
-[![Runtime Measurement — Mesurer et intégrer](https://img.shields.io/badge/Runtime_Measurement-Mesurer_%26_integrer-2563eb?style=flat-square)](https://github.com/neomundi-io/neomundi-runtime-measurement)
-[![Use Cases — Applications, pilotes et preuves](https://img.shields.io/badge/Use_Cases-Applications%2C_pilotes_%26_preuves-059669?style=flat-square)](https://github.com/neomundi-io/neomundi-use-cases)
-[![Créer un compte — ControlTower](https://img.shields.io/badge/Creer_un_compte-ControlTower-ea580c?style=flat-square)](https://controltower.neomundi.io/welcome)
+| Je souhaite… | Accès |
+| --- | --- |
+| Comprendre ce que mesure NeoMundi | [Runtime Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement) |
+| Explorer l’instrument public | [NeoMundi Station](https://github.com/neomundi-io/neomundi-station-public) |
+| Voir les applications et les preuves | [Index des pilotes](#index-des-pilotes) |
+| Examiner les collaborations de recherche | [Collaborations de recherche](#collaborations-de-recherche) |
+| Proposer une expérimentation ou un audit | [Travailler avec NeoMundi](#travailler-avec-neomundi) |
+
+## En 30 secondes
+
+- **Ce qui est mesuré :** des observations comportementales runtime bornées et leur incertitude — ni l’intention, ni la vérité, ni l’autorité.
+- **Usages pratiques :** reconstruction de preuves, observation de qualité et de dérive, audits contrôlés d’agents, recherche sur l’admissibilité et interopérabilité de signaux signés.
+- **Avec qui :** équipes de recherche, partenaires techniques, reviewers indépendants et organisations capables de définir un scénario d’essai borné.
+- **Ce qui est démontré :** les preuves publiques vont de E0 (déclaré) à E3 (observation réelle bornée) ; aucun cas n’est actuellement présenté comme E4.
+- **Ce qui reste expérimental :** fiabilité générale, certification, conformité, passage à l’échelle de production et reproduction indépendante.
 
 ## Explorer par usage
 
@@ -53,6 +62,17 @@ Le statut s’applique uniquement au périmètre documenté. Il ne valide pas gl
 | **08** | Admissibilité et continuité d’exécution | ManChine / RGE‑01 / REB‑01 / RiCo‑01 | Fournit une preuve observationnelle runtime | RGE‑01 évalue l’admissibilité avant activation ; REB‑01 gouverne la frontière d’exécution ; RiCo‑01 traite la continuité après activation | Architecture documentée · validation en attente | **E1** | Aucun run terminé | L’architecture et des payloads d’exemple sont publics ; un échange machine-à-machine complet ne l’est pas. [Dépôt](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility). |
 | **09** | Détection de qualité runtime RAG | Kabbalah App / RAG Test Bench | Produit des signaux de mesure runtime pendant l’évaluation | Le banc d’essai conserve le retrieval, la notation, le diagnostic et le choix des modèles | Test de terrain borné documenté | **E3** | Étude : 23 août 2026 · rapport : 20 septembre 2026 | Le rapport documente 60 générations instrumentées par manche, avec des alertes rapportées passant de 45/60 à 1/60 après correction. Le harness privé, les questions, les mappings de notation et le paquet brut ne sont pas publics. [Synthèse des preuves](./evidence/kabbalah-app-rag/README_FR.md). |
 | **10** | Vérification de signaux signés | VERITAS | Produit des observations RGC signées | VERITAS vérifie les preuves selon sa politique de confiance et conserve l’autorité de gouvernance et d’exécution | Adaptateur validé · preuve live réelle en attente | **E2** | Aucune clôture publique du PoC d’observation réelle | L’adaptateur et les chemins synthétiques sont documentés. Aucune observation NeoMundi réelle n’est publiée dans le dépôt partenaire. [Adaptateur](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [runbook du PoC réel](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
+
+## Collaborations de recherche
+
+Les collaborations de recherche sont séparées des pilotes produit. Elles documentent des questions, méthodes, rôles et limites ; elles ne constituent ni des références clients ni des certifications.
+
+| Collaboration | Question de recherche | Preuve publique | Statut et limites |
+| --- | --- | --- | --- |
+| **NeoMundi × ASRO — Runtime Governance Evidence** | La mesure comportementale et l’observation de l’état de gouvernance peuvent-elles rester indépendantes sans validation circulaire ? | **E1** · [Fiche de recherche bilingue](./collaborations/asro/runtime-governance-evidence.md) | Méthodologie documentée ; aucune validation scientifique achevée, certification ou exécution publique complète. |
+| **NeoMundi × ASRO — Independent Evidence Review, Round 2** | Un reviewer tiers peut-il examiner des artefacts versionnés et scellés tout en préservant la séparation des rôles ? | **E1** · [Fiche de protocole bilingue](./collaborations/asro/independent-evidence-review-round-2.md) | Protocole actif ; gel final, exécution, dossier scellé et revue indépendante encore ouverts. |
+
+ASRO n’est pas présenté comme organisme certificateur de NeoMundi. La contribution de James/ASRO est limitée ici au périmètre documenté : discipline de preuve, observation de l’état de gouvernance, examinabilité et séparation des autorités.
 
 ## Études en cours
 
@@ -96,6 +116,8 @@ Un artefact public manquant n’est pas remplacé par un statut. Les preuves syn
 - [ManChine — de l’observation à l’admissibilité](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility)
 - [Kabbalah App — synthèse publique des preuves](./evidence/kabbalah-app-rag/README_FR.md)
 - [VERITAS — adaptateur RGC v0.2](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md)
+- [NeoMundi × ASRO — Runtime Governance Evidence](./collaborations/asro/runtime-governance-evidence.md)
+- [NeoMundi × ASRO — Independent Evidence Review, Round 2](./collaborations/asro/independent-evidence-review-round-2.md)
 
 ## Infrastructure et programmes de soutien
 
@@ -107,8 +129,17 @@ La démarche indépendante d'observation et de mesure des IA de NeoMundi bénéf
 
 Ces relations soutiennent le développement de NeoMundi et n'impliquent ni certification ni approbation de ses résultats scientifiques.
 
-## Proposer un pilote
+## Travailler avec NeoMundi
 
-Un pilote utile commence par une question bornée, des responsabilités explicites, un protocole reproductible et une formulation claire de ce que les preuves ne permettent pas d’établir.
+Un pilote, une collaboration de recherche ou un audit utile commence par une question bornée, des rôles explicites, un protocole reproductible et une formulation claire de ce que les preuves ne permettent pas d’établir.
 
-[Proposer un cas d’usage dans les issues du dépôt](https://github.com/neomundi-io/neomundi-use-cases/issues). Ne publiez ni secret, ni donnée personnelle, ni archive expérimentale privée.
+La proposition devrait préciser :
+
+1. la question pratique et le contexte de décision ;
+2. le système ou workflow à observer ;
+3. les données disponibles et leurs contraintes de publication ;
+4. le niveau de preuve visé et les critères de réussite ;
+5. le décideur responsable et les frontières de rôle ;
+6. les artefacts susceptibles d’être publiés après le travail.
+
+[Proposer un scénario dans les issues du dépôt](https://github.com/neomundi-io/neomundi-use-cases/issues). Ne publiez ni secret, ni donnée personnelle, ni accord confidentiel, ni archive expérimentale privée.
