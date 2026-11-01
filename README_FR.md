@@ -69,8 +69,8 @@ Les collaborations de recherche sont séparées des pilotes produit. Elles docum
 
 | Collaboration | Question de recherche | Preuve publique | Statut et limites |
 | --- | --- | --- | --- |
-| **NeoMundi × ASRO — Runtime Governance Evidence** | La mesure comportementale et l’observation de l’état de gouvernance peuvent-elles rester indépendantes sans validation circulaire ? | **E1** · [Fiche de recherche bilingue](./collaborations/asro/runtime-governance-evidence.md) | Méthodologie documentée ; aucune validation scientifique achevée, certification ou exécution publique complète. |
-| **NeoMundi × ASRO — Independent Evidence Review, Round 2** | Un reviewer tiers peut-il examiner des artefacts versionnés et scellés tout en préservant la séparation des rôles ? | **E1** · [Fiche de protocole bilingue](./collaborations/asro/independent-evidence-review-round-2.md) | Protocole actif ; gel final, exécution, dossier scellé et revue indépendante encore ouverts. |
+| **NeoMundi × ASRO — Runtime Governance Evidence** | La mesure comportementale et l’observation de l’état de gouvernance peuvent-elles rester indépendantes sans validation circulaire ? | **E1** · [Fiche de recherche bilingue](./collaborations/asro/runtime-governance-evidence.md) · [Dépôt original](https://github.com/neomundi-io/runtime-governance-evidence) | Méthodologie documentée ; aucune validation scientifique achevée, certification ou exécution publique complète. |
+| **NeoMundi × ASRO — Independent Evidence Review, Round 2** | Un reviewer tiers peut-il examiner des artefacts versionnés et scellés tout en préservant la séparation des rôles ? | **E1** · [Fiche de protocole bilingue](./collaborations/asro/independent-evidence-review-round-2.md) · [Dépôt original](https://github.com/neomundi-io/neomundi-asro-round2-protocol) | Protocole actif ; gel final, exécution, dossier scellé et revue indépendante encore ouverts. |
 
 ASRO n’est pas présenté comme organisme certificateur de NeoMundi. La contribution de James/ASRO est limitée ici au périmètre documenté : discipline de preuve, observation de l’état de gouvernance, examinabilité et séparation des autorités.
 
