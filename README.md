@@ -1,19 +1,28 @@
 [Français](./README_FR.md)
 
-# From AI measurements to inspectable evidence
+# Independent AI Measurement — Real-World Applications & Research Collaborations
 
-**One measurement primitive. Multiple applications. Explicit boundaries.**
-
-NeoMundi produces independent runtime measurement signals. Partner systems may interpret those signals, combine them with their own evidence and decide or act under their own authority.
+NeoMundi is an independent runtime measurement instrument for AI systems. It observes bounded behavioral signals—such as stability variation, coherence variation, divergence and factual-risk indicators—without turning those signals into permissions, compliance decisions or claims of truth.
 
 > **Measurement is not interpretation. Interpretation is not a decision. A signal is not permission to act.**
 
-## Explore NeoMundi
+## Start here
 
-[![Station — Observe & experiment](https://img.shields.io/badge/Station-Observe_%26_experiment-7c3aed?style=flat-square)](https://github.com/neomundi-io/neomundi-station-public)
-[![Runtime Measurement — Measure & integrate](https://img.shields.io/badge/Runtime_Measurement-Measure_%26_integrate-2563eb?style=flat-square)](https://github.com/neomundi-io/neomundi-runtime-measurement)
-[![Use Cases — Applications, pilots & evidence](https://img.shields.io/badge/Use_Cases-Applications%2C_pilots_%26_evidence-059669?style=flat-square)](https://github.com/neomundi-io/neomundi-use-cases)
-[![Create an Account — ControlTower](https://img.shields.io/badge/Create_an_Account-ControlTower-ea580c?style=flat-square)](https://controltower.neomundi.io/welcome)
+| I want to… | Go to |
+| --- | --- |
+| Understand what NeoMundi measures | [Runtime Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement) |
+| Explore the public instrument | [NeoMundi Station](https://github.com/neomundi-io/neomundi-station-public) |
+| See applications and evidence | [Pilot index](#pilot-index) |
+| Review research collaborations | [Research collaborations](#research-collaborations) |
+| Propose an experiment or audit | [Work with NeoMundi](#work-with-neomundi) |
+
+## In 30 seconds
+
+- **What it measures:** bounded runtime behavioral observations and their uncertainty—not intent, truth or authority.
+- **Practical uses:** evidence reconstruction, quality and drift observation, controlled agent audits, admissibility research and signed-signal interoperability.
+- **Who collaborates:** research teams, technical partners, independent reviewers and organizations able to define a bounded test scenario.
+- **What is demonstrated:** public evidence ranges from E0 (declared) to E3 (bounded real observation); no case is currently presented as E4.
+- **What remains experimental:** general reliability, certification, compliance, production-scale claims and independent reproduction.
 
 ## Explore by use case
 
@@ -53,6 +62,17 @@ Status applies only to the documented scope. It does not validate a partner tech
 | **08** | Admissibility and execution continuity | ManChine / RGE-01 / REB-01 / RiCo-01 | Supplies runtime observational evidence | RGE-01 evaluates admissibility before activation; REB-01 governs the execution boundary; RiCo-01 addresses continuity after activation | Architecture documented · validation pending | **E1** | No completed run | The architecture and sample payloads are public; a complete machine-to-machine exchange is not. [Repository](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility). |
 | **09** | RAG runtime quality detection | Kabbalah App / RAG Test Bench | Produces runtime measurement signals during the evaluation | The test bench owns retrieval, scoring, diagnosis and model choices | Bounded field test documented | **E3** | Study: 23 Aug 2026 · report: 20 Sep 2026 | The report documents 60 instrumented generations per round, with reported alerts falling from 45/60 to 1/60 after correction. The private harness, questions, scoring mappings and raw package are not public. [Evidence summary](./evidence/kabbalah-app-rag/README.md). |
 | **10** | Signed signal verification | VERITAS | Produces signed RGC observations | VERITAS verifies evidence under its trust policy and retains governance and execution authority | Adapter validated · real live proof pending | **E2** | No public closure of the real-observation PoC | Adapter and synthetic paths are documented. No real NeoMundi observation is published in the partner repository. [Adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [real-observation PoC runbook](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
+
+## Research collaborations
+
+Research collaborations are listed separately from product pilots. They document questions, methods, roles and limits; they are not customer references or certifications.
+
+| Collaboration | Research question | Public evidence | Status and limits |
+| --- | --- | --- | --- |
+| **NeoMundi × ASRO — Runtime Governance Evidence** | Can behavioral measurement and governance-state witnessing remain independent without circular validation? | **E1** · [Bilingual research card](./collaborations/asro/runtime-governance-evidence.md) | Methodology documented; no completed scientific validation, certification or public execution package. |
+| **NeoMundi × ASRO — Independent Evidence Review, Round 2** | Can a third-party reviewer examine versioned and sealed measurement artifacts while roles remain separate? | **E1** · [Bilingual protocol card](./collaborations/asro/independent-evidence-review-round-2.md) | Protocol work is active; final freeze, execution, sealed record and independent review remain open. |
+
+ASRO is not presented as NeoMundi's certification body. James/ASRO's contribution is limited here to the documented scope of proof discipline, governance-state witnessing, reviewability and authority separation.
 
 ## Ongoing studies
 
@@ -96,6 +116,8 @@ A missing public artifact is not replaced by a status label. Synthetic, controll
 - [ManChine — observation to admissibility](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility)
 - [Kabbalah App — public evidence summary](./evidence/kabbalah-app-rag/README.md)
 - [VERITAS — RGC v0.2 adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md)
+- [NeoMundi × ASRO — Runtime Governance Evidence](./collaborations/asro/runtime-governance-evidence.md)
+- [NeoMundi × ASRO — Independent Evidence Review, Round 2](./collaborations/asro/independent-evidence-review-round-2.md)
 
 ## Infrastructure & Program Support
 
@@ -107,8 +129,17 @@ NeoMundi's independent AI observation and measurement initiative benefits from i
 
 These relationships support NeoMundi's development and do not imply certification or endorsement of its scientific results.
 
-## Propose a pilot
+## Work with NeoMundi
 
-A useful pilot begins with a bounded question, explicit responsibilities, a reproducible protocol and a clear statement of what the evidence cannot establish.
+A useful pilot, research collaboration or audit starts with a bounded question, explicit roles, a reproducible protocol and a clear statement of what the evidence cannot establish.
 
-[Propose a use case through the repository issues](https://github.com/neomundi-io/neomundi-use-cases/issues). Do not include secrets, personal data or private experimental archives.
+When opening a proposal, include:
+
+1. the practical question and intended decision context;
+2. the system or workflow to observe;
+3. the available data and its publication constraints;
+4. the evidence level sought and success criteria;
+5. the accountable decision-maker and all role boundaries;
+6. the artifacts that may be published after the work.
+
+[Propose a scenario through the repository issues](https://github.com/neomundi-io/neomundi-use-cases/issues). Do not include secrets, personal data, confidential agreements or private experimental archives.
