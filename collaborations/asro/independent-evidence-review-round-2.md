@@ -8,6 +8,8 @@
 **Public evidence level:** **E1 — Documented**  
 **Status:** active methodological protocol; execution, sealed record and independent review remain open.
 
+**[Explore the original research repository](https://github.com/neomundi-io/neomundi-asro-round2-protocol)** · [Explorer le dépôt de recherche original](https://github.com/neomundi-io/neomundi-asro-round2-protocol)
+
 ### Purpose
 
 Round 2 specifies how a third-party reviewer could examine a NeoMundi runtime measurement process after execution through versioned, sealed and role-bounded artifacts.
