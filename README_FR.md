@@ -63,6 +63,14 @@ Le statut s’applique uniquement au périmètre documenté. Il ne valide pas gl
 | **09** | Détection de qualité runtime RAG | Kabbalah App / RAG Test Bench | Produit des signaux de mesure runtime pendant l’évaluation | Le banc d’essai conserve le retrieval, la notation, le diagnostic et le choix des modèles | Test de terrain borné documenté | **E3** | Étude : 23 août 2026 · rapport : 20 septembre 2026 | Le rapport documente 60 générations instrumentées par manche, avec des alertes rapportées passant de 45/60 à 1/60 après correction. Le harness privé, les questions, les mappings de notation et le paquet brut ne sont pas publics. [Synthèse des preuves](./evidence/kabbalah-app-rag/README_FR.md). |
 | **10** | Vérification de signaux signés | VERITAS | Produit des observations RGC signées | VERITAS vérifie les preuves selon sa politique de confiance et conserve l’autorité de gouvernance et d’exécution | Adaptateur validé · preuve live réelle en attente | **E2** | Aucune clôture publique du PoC d’observation réelle | L’adaptateur et les chemins synthétiques sont documentés. Aucune observation NeoMundi réelle n’est publiée dans le dépôt partenaire. [Adaptateur](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [runbook du PoC réel](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
 
+## Intégration partenaire — Hivolvia (pilote privé)
+
+**Cas d'usage :** relier une supervision indépendante de modèles et de services d'IA aux signaux de mesure NeoMundi. Stéphane Lauga indique avoir livré pour évaluation son connecteur Rust multiplateforme, initialement conçu pour son environnement d'observabilité puis adapté à l'API OBS de NeoMundi. Il s'agit d'une **implémentation tierce** dont l'auteur conserve les sources, la maintenance et le support à distance des pilotes.
+
+**Niveau de preuve : E0 pour la qualification indépendante.** Le développeur a rapporté un échange API réussi le 2 septembre 2026 et une livraison le 18 septembre 2026. Ces étapes sont déclarées par le partenaire, pas reproduites indépendamment. Aucun test de bout en bout avec la version actuelle, audit de sécurité, accord de distribution pilote signé ou preuve publiée de consommation effective des mesures n'est disponible ici. L'évaluation est réservée à des pilotes identifiés dans un cadre convenu ; aucun téléchargement public. L'attribution publique reste à confirmer définitivement.
+
+[Présentation de l'intégration — Station](https://github.com/neomundi-io/neomundi-station-public/blob/main/README.fr.md#intégrations-partenaires--pilotes-privés)
+
 ## Collaborations de recherche
 
 Les collaborations de recherche sont séparées des pilotes produit. Elles documentent des questions, méthodes, rôles et limites ; elles ne constituent ni des références clients ni des certifications.
