@@ -27,7 +27,7 @@ NeoMundi is an independent runtime measurement instrument for AI systems. It obs
 ## Explore by use case
 
 - **Evidence and audit:** AI Business, FactNotebook, SEILX
-- **Independent policy and execution:** OASSE, ManChine, VERITAS
+- **Independent policy and execution:** OASSE, ManChine, VERITAS, Project Petunia × Judicator (OGS)
 - **Observability and quality:** DriftShield, Kabbalah App
 - **Agentic routing:** OmarAGI / REVAS
 - **Measurement research:** Dr Islam Gouda, Farzad Abbasi / AEGIS
@@ -62,6 +62,7 @@ Status applies only to the documented scope. It does not validate a partner tech
 | **08** | Admissibility and execution continuity | ManChine / RGE-01 / REB-01 / RiCo-01 | Supplies runtime observational evidence | RGE-01 evaluates admissibility before activation; REB-01 governs the execution boundary; RiCo-01 addresses continuity after activation | Architecture documented · validation pending | **E1** | No completed run | The architecture and sample payloads are public; a complete machine-to-machine exchange is not. [Repository](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility). |
 | **09** | RAG runtime quality detection | Kabbalah App / RAG Test Bench | Produces runtime measurement signals during the evaluation | The test bench owns retrieval, scoring, diagnosis and model choices | Bounded field test documented | **E3** | Study: 23 Aug 2026 · report: 20 Sep 2026 | The report documents 60 instrumented generations per round, with reported alerts falling from 45/60 to 1/60 after correction. The private harness, questions, scoring mappings and raw package are not public. [Evidence summary](./evidence/kabbalah-app-rag/README.md). |
 | **10** | Signed signal verification | VERITAS | Produces signed RGC observations | VERITAS verifies evidence under its trust policy and retains governance and execution authority | Adapter validated · real live proof pending | **E2** | No public closure of the real-observation PoC | Adapter and synthetic paths are documented. No real NeoMundi observation is published in the partner repository. [Adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [real-observation PoC runbook](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
+| **11** | Governance-object interoperability | Mark Mocnaj / Project Petunia × Judicator (OGS) | Provides the runtime-observation model represented by synthetic payloads | OGS evaluates what the signals may support and prohibits unsupported downstream use | Public synthetic pilot documented | **E2** | Execution date not stated | Five synthetic observation payloads, governance objects and payload-bound receipts are public; internal deterministic replay reproduced all five documented classifications. No external action was authorized. The result is internally verified, not independently reproduced and not production-derived; no real NeoMundi measurement is included. [Partner repository](https://github.com/UmjetnaInteligencija/ogs-neomundi-public-interoperability-pilot). |
 
 ## Partner integration — Hivolvia (private pilot)
 
@@ -98,7 +99,7 @@ Within their published boundaries:
 - third-party systems can consume NeoMundi runtime observations while retaining separate authority;
 - controlled evidence can preserve distinctions between measurement, deterministic conformity, policy and downstream action;
 - bounded real-data work is documented for OASSE, FactNotebook and Kabbalah App;
-- synthetic and controlled paths are documented for OmarAGI / REVAS, AI Business and VERITAS;
+- synthetic and controlled paths are documented for OmarAGI / REVAS, AI Business, VERITAS and Project Petunia × Judicator (OGS);
 - architectural separation is documented for ManChine.
 
 ## What remains unverified
@@ -110,7 +111,7 @@ This index does not establish:
 - superiority of a model or partner technology;
 - independent reproduction of any listed result;
 - a public result for DriftShield or SEILX;
-- completed live interoperability for ManChine or the real-observation VERITAS path.
+- completed live interoperability for ManChine, the real-observation VERITAS path or the proposed OGS experiment using real NeoMundi measurements.
 
 A missing public artifact is not replaced by a status label. Synthetic, controlled, single-execution and report-only evidence must remain identified as such.
 
@@ -124,6 +125,7 @@ A missing public artifact is not replaced by a status label. Synthetic, controll
 - [ManChine — observation to admissibility](https://github.com/neomundi-io/use-case-rico-observation-to-admissibility)
 - [Kabbalah App — public evidence summary](./evidence/kabbalah-app-rag/README.md)
 - [VERITAS — RGC v0.2 adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md)
+- [Mark Mocnaj / Project Petunia × Judicator (OGS) — public interoperability pilot](https://github.com/UmjetnaInteligencija/ogs-neomundi-public-interoperability-pilot)
 - [NeoMundi × ASRO — Runtime Governance Evidence](./collaborations/asro/runtime-governance-evidence.md)
 - [NeoMundi × ASRO — Independent Evidence Review, Round 2](./collaborations/asro/independent-evidence-review-round-2.md)
 
