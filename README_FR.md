@@ -87,6 +87,10 @@ Aucun cas de cet index n’est actuellement présenté comme E4.
 
 [Présentation de l'intégration — Station](https://github.com/neomundi-io/neomundi-station-public/blob/main/README.fr.md#intégrations-partenaires--pilotes-privés)
 
+## Oak & Sparrow — étude de cas externe
+
+[Consulter l'étude de cas NeoMundi publiée par Oak & Sparrow](https://oakandsparrow.io/#/case-studies/neomundi). Cette publication externe est référencée à titre documentaire ; aucun niveau de preuve E0–E4 ne lui est attribué ici et elle n'est pas présentée comme une validation technique indépendante ou une certification.
+
 ## Collaborations de recherche
 
 Les collaborations de recherche sont séparées des pilotes produit. Elles documentent des questions, méthodes, rôles et limites ; elles ne constituent ni des références clients ni des certifications.

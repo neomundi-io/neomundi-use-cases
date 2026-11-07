@@ -87,6 +87,10 @@ No use case in this index is currently presented as E4.
 
 [Integration overview — Station](https://github.com/neomundi-io/neomundi-station-public#partner-integrations--private-pilots)
 
+## Oak & Sparrow — external case study
+
+[Read the NeoMundi case study published by Oak & Sparrow](https://oakandsparrow.io/#/case-studies/neomundi). This external publication is linked for reference; it is not assigned an E0–E4 evidence level here, nor presented as independent technical validation or certification.
+
 ## Research collaborations
 
 Research collaborations are listed separately from product pilots. They document questions, methods, roles and limits; they are not customer references or certifications.
