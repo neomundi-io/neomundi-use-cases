@@ -1,50 +1,51 @@
-[English](./README.md)
+<div align="center">
 
-# Mesure indépendante de l’IA — Applications concrètes et collaborations de recherche
+<sub><a href="README.md">English</a> · <b>Français</b></sub>
 
-NeoMundi est un instrument indépendant de mesure runtime des systèmes d’IA. Il observe des signaux comportementaux bornés — notamment les variations de stabilité et de cohérence, les divergences et les indicateurs de risque factuel — sans transformer ces signaux en permissions, décisions de conformité ou affirmations de vérité.
+# NeoMundi — Cas d’usage
 
-> **La mesure n’est pas l’interprétation. L’interprétation n’est pas une décision. Un signal n’est pas une permission d’agir.**
+### La mesure devient utile lorsqu’elle répond à un problème concret.
 
-## Commencer ici
+**Découvrez comment la mesure indépendante, l’observation contextualisée et les preuves vérifiables s’appliquent aux agents IA, à la gouvernance et à la qualité des systèmes.**
 
-| Je souhaite… | Accès |
-| --- | --- |
-| Comprendre ce que mesure NeoMundi | [Runtime Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement) |
-| Explorer l’instrument public | [NeoMundi Station](https://github.com/neomundi-io/neomundi-station-public) |
-| Voir les applications et les preuves | [Index des pilotes](#index-des-pilotes) |
-| Examiner les collaborations de recherche | [Collaborations de recherche](#collaborations-de-recherche) |
-| Proposer une expérimentation ou un audit | [Travailler avec NeoMundi](#travailler-avec-neomundi) |
+**Measurement → Station → Evidence**
 
-## En 30 secondes
+[![Measurement](https://img.shields.io/badge/Measurement-Mesurer-2563eb?style=flat-square)](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/README_FR.md)
+[![Station](https://img.shields.io/badge/Station-Observer-0f766e?style=flat-square)](https://github.com/neomundi-io/neomundi-station-public/blob/main/README.fr.md)
+[![Evidence](https://img.shields.io/badge/Evidence-Verifier-D4A545?style=flat-square)](https://github.com/neomundi-io/neomundi-evidence-public/blob/main/README.fr.md)
+[![Use cases](https://img.shields.io/badge/Cas_d_usage-Explorer-64748b?style=flat-square)](https://github.com/neomundi-io/neomundi-use-cases/blob/main/README_FR.md)
 
-- **Ce qui est mesuré :** des observations comportementales runtime bornées et leur incertitude — ni l’intention, ni la vérité, ni l’autorité.
-- **Usages pratiques :** reconstruction de preuves, observation de qualité et de dérive, audits contrôlés d’agents, recherche sur l’admissibilité et interopérabilité de signaux signés.
-- **Avec qui :** équipes de recherche, partenaires techniques, reviewers indépendants et organisations capables de définir un scénario d’essai borné.
-- **Ce qui est démontré :** les preuves publiques vont de E0 (déclaré) à E3 (observation réelle bornée) ; aucun cas n’est actuellement présenté comme E4.
-- **Ce qui reste expérimental :** fiabilité générale, certification, conformité, passage à l’échelle de production et reproduction indépendante.
+**[API](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/QUICKSTART.md)** · **[Créer un compte](https://controltower.neomundi.io/welcome)**
+
+</div>
+
+---
+
+## Trois applications documentées
+
+Les résultats ci-dessous illustrent des **cas distincts** ; leur niveau E3 décrit les preuves publiques disponibles pour chaque périmètre, pas une certification ou une qualification générale en production.
+
+| Application | Problème traité | Résultat documenté | Preuves |
+|---|---|---|---|
+| **OASSE — Gouvernance d’exécution** | Séparer mesure indépendante, politique déterministe et décision opérationnelle. | Deux campagnes contrôlées de **1 000 et 60 requêtes**, avec rôles d’autorité séparés. **E3**. | [Étude OASSE](https://github.com/neomundi-io/use-case-oasse-runtime-governance) |
+| **FactNotebook — Reconstruction des preuves** | Relier les observations d’IA à une reconstruction indépendante de ce qu’elles permettent d’établir. | **5 cas PubMedQA** instrumentés, puis reconstruits par le partenaire. Le moteur de reconstruction n’est pas public. **E3**. | [Pilote NeoMundi](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa) · [Travail partenaire](https://github.com/factnotebook/public-reconstructions/tree/main/FN-NEOMUNDI-CTPUBMEDQA-001) |
+| **Kabbalah App — Qualité d’un RAG** | Observer les alertes d’un banc RAG et les comparer après correction. | **60 générations instrumentées par manche** ; alertes rapportées passant de **45/60 à 1/60**. Banc et données brutes privés. **E3**. | [Synthèse publique](./evidence/kabbalah-app-rag/README_FR.md) |
+
+**[Explorer les 11 cas d’usage](#index-des-pilotes)** · [Examiner les collaborations scientifiques](#collaborations-de-recherche) · [Proposer un pilote](#travailler-avec-neomundi)
+
+## Une chaîne, des applications différentes
+
+**Measurement** produit des signaux et leur couverture. **Station** conserve les conditions d’observation et les dossiers de campagne. **Evidence** permet de contrôler l’intégrité et certaines attestations des artefacts. Les partenaires conservent leurs politiques et décisions.
+
+[Découvrir Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/README_FR.md) · [Explorer Station](https://github.com/neomundi-io/neomundi-station-public/blob/main/README.fr.md) · [Vérifier avec Evidence](https://github.com/neomundi-io/neomundi-evidence-public/blob/main/README.fr.md)
 
 ## Explorer par usage
 
 - **Preuve et audit :** AI Business, FactNotebook, SEILX
-- **Politique et exécution indépendantes :** OASSE, ManChine, VERITAS, Project Petunia × Judicator (OGS)
+- **Gouvernance et exécution :** OASSE, ManChine, VERITAS, Project Petunia × Judicator (OGS)
 - **Observabilité et qualité :** DriftShield, Kabbalah App
 - **Routage agentique :** OmarAGI / REVAS
 - **Recherche sur la mesure :** Dr Islam Gouda, Farzad Abbasi / AEGIS
-
-## Niveaux de preuve
-
-Ces niveaux décrivent les preuves publiques disponibles pour un cas précis. Ce ne sont ni des certifications, ni des notes attribuées aux partenaires, ni une échelle universelle de maturité.
-
-| Niveau | Signification |
-| --- | --- |
-| **E0 — Déclaré** | L’objet et le statut sont publics, mais aucun résultat n’est revendiqué ni publiquement étayé. |
-| **E1 — Documenté** | Une architecture, un plan ou un compte rendu est public ; aucune exécution publique achevée n’est démontrée. |
-| **E2 — Exécution contrôlée** | Des artefacts examinables documentent une exécution synthétique ou contrôlée. |
-| **E3 — Observation réelle bornée** | Des preuves publiques documentent des données réelles ou une exécution réelle bornée, avec ses limites. |
-| **E4 — Reproduction indépendante** | Un tiers peut reproduire indépendamment le résultat à partir du protocole et des matériaux publiés. |
-
-Aucun cas de cet index n’est actuellement présenté comme E4.
 
 ## Index des pilotes
 
@@ -63,6 +64,20 @@ Le statut s’applique uniquement au périmètre documenté. Il ne valide pas gl
 | **09** | Détection de qualité runtime RAG | Kabbalah App / RAG Test Bench | Produit des signaux de mesure runtime pendant l’évaluation | Le banc d’essai conserve le retrieval, la notation, le diagnostic et le choix des modèles | Test de terrain borné documenté | **E3** | Étude : 23 août 2026 · rapport : 20 septembre 2026 | Le rapport documente 60 générations instrumentées par manche, avec des alertes rapportées passant de 45/60 à 1/60 après correction. Le harness privé, les questions, les mappings de notation et le paquet brut ne sont pas publics. [Synthèse des preuves](./evidence/kabbalah-app-rag/README_FR.md). |
 | **10** | Vérification de signaux signés | VERITAS | Produit des observations RGC signées | VERITAS vérifie les preuves selon sa politique de confiance et conserve l’autorité de gouvernance et d’exécution | Adaptateur validé · preuve live réelle en attente | **E2** | Aucune clôture publique du PoC d’observation réelle | L’adaptateur et les chemins synthétiques sont documentés. Aucune observation NeoMundi réelle n’est publiée dans le dépôt partenaire. [Adaptateur](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [runbook du PoC réel](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
 | **11** | Interopérabilité d’objets de gouvernance | Mark Mocnaj / Project Petunia × Judicator (OGS) | Fournit le modèle d’observation runtime représenté par des payloads synthétiques | OGS évalue ce que les signaux peuvent légitimement étayer et interdit les usages aval non étayés | Pilote synthétique public documenté | **E2** | Date d’exécution non indiquée | Cinq payloads d’observation synthétiques, objets de gouvernance et reçus liés aux payloads sont publics ; le replay déterministe interne a reproduit les cinq classifications documentées. Aucune action externe n’a été autorisée. Le résultat est vérifié en interne, non reproduit indépendamment et non issu de la production ; aucune mesure NeoMundi réelle n’est incluse. [Dépôt partenaire](https://github.com/UmjetnaInteligencija/ogs-neomundi-public-interoperability-pilot). |
+
+## Niveaux de preuve
+
+Ces niveaux décrivent les preuves publiques disponibles pour un cas précis. Ce ne sont ni des certifications, ni des notes attribuées aux partenaires, ni une échelle universelle de maturité.
+
+| Niveau | Signification |
+| --- | --- |
+| **E0 — Déclaré** | L’objet et le statut sont publics, mais aucun résultat n’est revendiqué ni publiquement étayé. |
+| **E1 — Documenté** | Une architecture, un plan ou un compte rendu est public ; aucune exécution publique achevée n’est démontrée. |
+| **E2 — Exécution contrôlée** | Des artefacts examinables documentent une exécution synthétique ou contrôlée. |
+| **E3 — Observation réelle bornée** | Des preuves publiques documentent des données réelles ou une exécution réelle bornée, avec ses limites. |
+| **E4 — Reproduction indépendante** | Un tiers peut reproduire indépendamment le résultat à partir du protocole et des matériaux publiés. |
+
+Aucun cas de cet index n’est actuellement présenté comme E4.
 
 ## Intégration partenaire — Hivolvia (pilote privé)
 
