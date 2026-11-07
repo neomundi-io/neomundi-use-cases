@@ -1,50 +1,51 @@
-[Français](./README_FR.md)
+<div align="center">
 
-# Independent AI Measurement — Real-World Applications & Research Collaborations
+<sub><b>English</b> · <a href="README_FR.md">Français</a></sub>
 
-NeoMundi is an independent runtime measurement instrument for AI systems. It observes bounded behavioral signals—such as stability variation, coherence variation, divergence and factual-risk indicators—without turning those signals into permissions, compliance decisions or claims of truth.
+# NeoMundi — Use Cases
 
-> **Measurement is not interpretation. Interpretation is not a decision. A signal is not permission to act.**
+### AI measurement matters when it solves a real problem.
 
-## Start here
+**Explore how independent measurement, contextual observation and verifiable evidence support AI agents, governance and system quality.**
 
-| I want to… | Go to |
-| --- | --- |
-| Understand what NeoMundi measures | [Runtime Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement) |
-| Explore the public instrument | [NeoMundi Station](https://github.com/neomundi-io/neomundi-station-public) |
-| See applications and evidence | [Pilot index](#pilot-index) |
-| Review research collaborations | [Research collaborations](#research-collaborations) |
-| Propose an experiment or audit | [Work with NeoMundi](#work-with-neomundi) |
+**Measurement → Station → Evidence**
 
-## In 30 seconds
+[![Measurement](https://img.shields.io/badge/Measurement-Measure-2563eb?style=flat-square)](https://github.com/neomundi-io/neomundi-runtime-measurement)
+[![Station](https://img.shields.io/badge/Station-Observe-0f766e?style=flat-square)](https://github.com/neomundi-io/neomundi-station-public)
+[![Evidence](https://img.shields.io/badge/Evidence-Verify-D4A545?style=flat-square)](https://github.com/neomundi-io/neomundi-evidence-public)
+[![Use cases](https://img.shields.io/badge/Use_cases-Explore-64748b?style=flat-square)](https://github.com/neomundi-io/neomundi-use-cases)
 
-- **What it measures:** bounded runtime behavioral observations and their uncertainty—not intent, truth or authority.
-- **Practical uses:** evidence reconstruction, quality and drift observation, controlled agent audits, admissibility research and signed-signal interoperability.
-- **Who collaborates:** research teams, technical partners, independent reviewers and organizations able to define a bounded test scenario.
-- **What is demonstrated:** public evidence ranges from E0 (declared) to E3 (bounded real observation); no case is currently presented as E4.
-- **What remains experimental:** general reliability, certification, compliance, production-scale claims and independent reproduction.
+**[API](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/QUICKSTART.md)** · **[Create an account](https://controltower.neomundi.io/welcome)**
+
+</div>
+
+---
+
+## Three documented applications
+
+These results illustrate **different bounded use cases**. Their E3 levels describe the public evidence available for each scope, not a certification or general production qualification.
+
+| Application | Challenge | Documented result | Evidence |
+|---|---|---|---|
+| **OASSE — Execution governance** | Keep independent measurement, deterministic policy and operational action separate. | Two controlled campaigns of **1,000 and 60 requests**, with distinct decision authorities. **E3**. | [OASSE study](https://github.com/neomundi-io/use-case-oasse-runtime-governance) |
+| **FactNotebook — Evidence reconstruction** | Connect AI observations to an independent reconstruction of what the records support. | **5 PubMedQA cases** instrumented and reconstructed by the partner. The reconstruction engine is not public. **E3**. | [NeoMundi pilot](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa) · [Partner work](https://github.com/factnotebook/public-reconstructions/tree/main/FN-NEOMUNDI-CTPUBMEDQA-001) |
+| **Kabbalah App — RAG quality** | Observe and compare RAG benchmark alerts after a correction. | **60 instrumented generations per round**; reported alerts changed from **45/60 to 1/60**. Harness and raw data remain private. **E3**. | [Public summary](./evidence/kabbalah-app-rag/README.md) |
+
+**[Explore all 11 use cases](#pilot-index)** · [Research collaborations](#research-collaborations) · [Propose a pilot](#work-with-neomundi)
+
+## One chain, different applications
+
+**Measurement** provides signals and their coverage. **Station** preserves observation conditions and campaign records. **Evidence** checks integrity and specified attestations of the resulting artefacts. Partners retain their own policies and decisions.
+
+[Explore Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Explore Station](https://github.com/neomundi-io/neomundi-station-public) · [Verify with Evidence](https://github.com/neomundi-io/neomundi-evidence-public)
 
 ## Explore by use case
 
 - **Evidence and audit:** AI Business, FactNotebook, SEILX
-- **Independent policy and execution:** OASSE, ManChine, VERITAS, Project Petunia × Judicator (OGS)
+- **Policy and execution:** OASSE, ManChine, VERITAS, Project Petunia × Judicator (OGS)
 - **Observability and quality:** DriftShield, Kabbalah App
 - **Agentic routing:** OmarAGI / REVAS
 - **Measurement research:** Dr Islam Gouda, Farzad Abbasi / AEGIS
-
-## Evidence levels
-
-These levels describe the public evidence available for a specific use case. They are not certifications, partner ratings or a universal maturity scale.
-
-| Level | Meaning |
-| --- | --- |
-| **E0 — Declared** | Object and status are public, but no result is claimed or publicly evidenced. |
-| **E1 — Documented** | An architecture, plan or account is public; no completed public execution is demonstrated. |
-| **E2 — Controlled execution** | Inspectable artifacts document a synthetic or controlled execution. |
-| **E3 — Bounded real observation** | Public evidence documents real data or a real bounded execution, with stated limits. |
-| **E4 — Independent reproduction** | A third party can independently reproduce the result from the published protocol and materials. |
-
-No use case in this index is currently presented as E4.
 
 ## Pilot index
 
@@ -63,6 +64,20 @@ Status applies only to the documented scope. It does not validate a partner tech
 | **09** | RAG runtime quality detection | Kabbalah App / RAG Test Bench | Produces runtime measurement signals during the evaluation | The test bench owns retrieval, scoring, diagnosis and model choices | Bounded field test documented | **E3** | Study: 23 Aug 2026 · report: 20 Sep 2026 | The report documents 60 instrumented generations per round, with reported alerts falling from 45/60 to 1/60 after correction. The private harness, questions, scoring mappings and raw package are not public. [Evidence summary](./evidence/kabbalah-app-rag/README.md). |
 | **10** | Signed signal verification | VERITAS | Produces signed RGC observations | VERITAS verifies evidence under its trust policy and retains governance and execution authority | Adapter validated · real live proof pending | **E2** | No public closure of the real-observation PoC | Adapter and synthetic paths are documented. No real NeoMundi observation is published in the partner repository. [Adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [real-observation PoC runbook](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
 | **11** | Governance-object interoperability | Mark Mocnaj / Project Petunia × Judicator (OGS) | Provides the runtime-observation model represented by synthetic payloads | OGS evaluates what the signals may support and prohibits unsupported downstream use | Public synthetic pilot documented | **E2** | Execution date not stated | Five synthetic observation payloads, governance objects and payload-bound receipts are public; internal deterministic replay reproduced all five documented classifications. No external action was authorized. The result is internally verified, not independently reproduced and not production-derived; no real NeoMundi measurement is included. [Partner repository](https://github.com/UmjetnaInteligencija/ogs-neomundi-public-interoperability-pilot). |
+
+## Evidence levels
+
+These levels describe the public evidence available for a specific use case. They are not certifications, partner ratings or a universal maturity scale.
+
+| Level | Meaning |
+| --- | --- |
+| **E0 — Declared** | Object and status are public, but no result is claimed or publicly evidenced. |
+| **E1 — Documented** | An architecture, plan or account is public; no completed public execution is demonstrated. |
+| **E2 — Controlled execution** | Inspectable artifacts document a synthetic or controlled execution. |
+| **E3 — Bounded real observation** | Public evidence documents real data or a real bounded execution, with stated limits. |
+| **E4 — Independent reproduction** | A third party can independently reproduce the result from the published protocol and materials. |
+
+No use case in this index is currently presented as E4.
 
 ## Partner integration — Hivolvia (private pilot)
 
