@@ -65,6 +65,14 @@ Status applies only to the documented scope. It does not validate a partner tech
 | **10** | Signed signal verification | VERITAS | Produces signed RGC observations | VERITAS verifies evidence under its trust policy and retains governance and execution authority | Adapter validated · real live proof pending | **E2** | No public closure of the real-observation PoC | Adapter and synthetic paths are documented. No real NeoMundi observation is published in the partner repository. [Adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md) · [real-observation PoC runbook](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-real-observation-poc.md). |
 | **11** | Governance-object interoperability | Mark Mocnaj / Project Petunia × Judicator (OGS) | Provides the runtime-observation model represented by synthetic payloads | OGS evaluates what the signals may support and prohibits unsupported downstream use | Public synthetic pilot documented | **E2** | Execution date not stated | Five synthetic observation payloads, governance objects and payload-bound receipts are public; internal deterministic replay reproduced all five documented classifications. No external action was authorized. The result is internally verified, not independently reproduced and not production-derived; no real NeoMundi measurement is included. [Partner repository](https://github.com/UmjetnaInteligencija/ogs-neomundi-public-interoperability-pilot). |
 
+## Independent Evidence Reviews
+
+**Independent reviewers can test NeoMundi's evidence boundaries without becoming customers, endorsers or certification bodies.** This section is reserved for bounded reviews that identify what an observation proves, what it does not prove, and how findings inform verification design.
+
+A contributor-specific case study is **pending the reviewer's explicit approval of the proposed wording and attribution**. This public draft intentionally publishes no reviewer identity, private execution packet or unapproved case-study claims. Once approved, a separately reviewed change can link the named case and its relevant public technical evidence.
+
+Reviews here should distinguish digest integrity from cryptographic signatures; declared references from independently verified links; and AI measurement from the underlying external execution. Outstanding execution-to-measurement binding, issuer-authentication and data-retention questions must remain visible where relevant.
+
 ## Evidence levels
 
 These levels describe the public evidence available for a specific use case. They are not certifications, partner ratings or a universal maturity scale.
