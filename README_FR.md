@@ -84,6 +84,14 @@ Ces observations ont contribué à renforcer les contrôles de couverture des em
 
 **Limites :** L’exécution externe n’est pas encore rattachée cryptographiquement ou opérationnellement à la mesure IA distincte. Une empreinte SHA-256 n’est pas une signature et n’authentifie pas un émetteur. L’authentification des émetteurs et la conservation des extraits restent ouvertes. Cette revue méthodologique est bornée : elle ne constitue ni validation indépendante de bout en bout, ni certification de performance générale, ni approbation globale de la plateforme.
 
+### Olusanya Timothy — Corpus de conformité et contrat de vérification CLI (proposition soumise à validation)
+
+**Revue indépendante — Diagnostic des dépendances et états de vérification.** Lors de sa revue de novembre 2026, Timothy a indépendamment signalé des diagnostics trompeurs dans le banc de conformité : l'absence d'une dépendance optionnelle dans l'environnement d'exécution était présentée comme une régression plutôt que comme un prérequis manquant. Il a également soulevé une question de contrat sur les codes de sortie CLI : **une vérification incomplète et une vérification échouée sont deux états distincts**. Il s'agit d'une discussion sur l'évolution du contrat, **pas d'une correction de défaut attribuée au relecteur**.
+
+La lacune de couverture du mode strict figurait déjà dans les notes de version NeoMundi. Timothy l'a relevée **dans ces notes** et l'a signalée ; la découverte initiale et l'implémentation corrective reviennent à NeoMundi. L'investigation et les corrections qui ont suivi ont été livrées avec le corpus de conformité **1.3.0**. Timothy indique avoir relancé les contrôles **sur cette version, et non sur sa branche** : 172 empreintes, reproduction à l'octet de 121 fixtures et 11 contrôles réussis dans son environnement Python disponible ; il n'a pas exécuté la chaîne Rust.
+
+**Limites :** Des points de revue restent ouverts. Cette attribution ne signifie **ni** que Timothy a clôturé, validé, certifié ou approuvé le corpus, **ni** qu'il cautionne NeoMundi. Ses observations sont distinguées de la paternité du code correctif. **Texte d'attribution proposé à Timothy : validation de la formulation Use Cases en attente.** Traçabilité technique : PR #39 (évolution du corpus) et #40 (attribution), conservées dans le dépôt privé du moteur ; la seconde a été fusionnée le 14 novembre 2026 au commit `6c5bb4c5`.
+
 Les contributions futures ne seront publiées avec le nom de leur auteur qu’après accord explicite sur le texte et l’attribution. Aucun dossier d’exécution privé ni aucune conclusion nominative non approuvée n’est inclus.
 
 ## Niveaux de preuve
