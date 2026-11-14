@@ -67,11 +67,23 @@ Le statut s’applique uniquement au périmètre documenté. Il ne valide pas gl
 
 ## Revues indépendantes des preuves
 
-**Des évaluateurs externes peuvent examiner les limites des preuves NeoMundi sans être clients, organismes certificateurs ou garants de ses résultats.** Cette section accueillera des revues circonscrites précisant ce qu'une observation démontre, ce qu'elle ne démontre pas et comment les retours contribuent à améliorer les mécanismes de vérification.
+**Des évaluateurs externes peuvent examiner les limites des preuves NeoMundi sans être clients, organismes certificateurs ou garants de ses résultats.** Ces revues circonscrites décrivent ce qu’une observation démontre, ses limites et les améliorations apportées aux mécanismes de vérification.
 
-Une étude attribuée à un contributeur est **en attente de son approbation explicite sur le texte et le crédit**. Cette PR publique ne publie volontairement ni identité, ni dossier d'exécution privé, ni conclusions nominatives non validées. Après accord, une modification distincte et relue pourra renvoyer vers le cas autorisé et ses références techniques publiques.
+### Mark Mocnaj — Project Petunia × Judicator (OGS)
 
-Ces revues distinguent notamment l'intégrité d'une empreinte d'une signature cryptographique, une référence déclarée d'un lien vérifié indépendamment, et une mesure IA de l'exécution externe sous-jacente. Les limites non résolues relatives au rattachement exécution–mesure, à l'authentification de l'émetteur et à la conservation des données doivent rester explicites lorsqu'elles s'appliquent.
+**Revue indépendante — Interopérabilité et ingestion OGS.** La soumission OGS B-3 v2 a permis de tester l’ingestion dans NeoMundi Evidence, la compatibilité des schémas, l’intégrité des artefacts et le replay déterministe. Elle a révélé quatre écarts d’ingestion : représentation du type d’exécution, format d’horodatage, rôle d’artefact manquant et métadonnées de pilote sous forme de liste. L’adaptateur a été corrigé et couvert par des tests de régression. Le candidat inchangé a ensuite passé les contrôles techniques d’ingestion documentés, notamment 19 empreintes et tailles d’artefacts ainsi que cinq cas de replay déterministe.
+
+**Limite :** Ce résultat démontre une compatibilité d’ingestion bornée, pas la certification des affirmations amont, la maturité générale en production ni une validation scientifique complète. [Référence technique — PR #24](https://github.com/neomundi-io/neomundi-evidence-public/pull/24).
+
+### Dennis Christie — ASIN-HHC / CP8
+
+**Revue indépendante — Reproductibilité et preuves d’exécution.** Dennis a examiné indépendamment les reçus de mesure NeoMundi et les limites de vérification des preuves à partir d’un dossier d’exécution CP8 contrôlé existant et de documents de réconciliation. Sa revue a distingué la mesure IA rapportée de l’exécution externe sous-jacente. Elle a aussi relevé un agrégat brut (0,3863) et un ancien affichage normalisé du portail (0,594) : deux représentations NeoMundi, non deux mesures contradictoires entre partenaires.
+
+Ces observations ont contribué à renforcer les contrôles de couverture des empreintes, la distinction entre liens déclarés et liens vérifiés indépendamment, les tests de régression et la documentation. [Référence technique — PR #38](https://github.com/neomundi-io/neomundi-evidence-public/pull/38).
+
+**Limites :** L’exécution externe n’est pas encore rattachée cryptographiquement ou opérationnellement à la mesure IA distincte. Une empreinte SHA-256 n’est pas une signature et n’authentifie pas un émetteur. L’authentification des émetteurs et la conservation des extraits restent ouvertes. Cette revue méthodologique est bornée : elle ne constitue ni validation indépendante de bout en bout, ni certification de performance générale, ni approbation globale de la plateforme.
+
+Les contributions futures ne seront publiées avec le nom de leur auteur qu’après accord explicite sur le texte et l’attribution. Aucun dossier d’exécution privé ni aucune conclusion nominative non approuvée n’est inclus.
 
 ## Niveaux de preuve
 

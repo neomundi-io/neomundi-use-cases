@@ -67,11 +67,23 @@ Status applies only to the documented scope. It does not validate a partner tech
 
 ## Independent Evidence Reviews
 
-**Independent reviewers can test NeoMundi's evidence boundaries without becoming customers, endorsers or certification bodies.** This section is reserved for bounded reviews that identify what an observation proves, what it does not prove, and how findings inform verification design.
+**Independent reviewers can test NeoMundi's evidence boundaries without becoming customers, endorsers or certification bodies.** These bounded reviews document what an observation proves, what it does not prove, and how findings inform verification design.
 
-A contributor-specific case study is **pending the reviewer's explicit approval of the proposed wording and attribution**. This public draft intentionally publishes no reviewer identity, private execution packet or unapproved case-study claims. Once approved, a separately reviewed change can link the named case and its relevant public technical evidence.
+### Mark Mocnaj — Project Petunia × Judicator (OGS)
 
-Reviews here should distinguish digest integrity from cryptographic signatures; declared references from independently verified links; and AI measurement from the underlying external execution. Outstanding execution-to-measurement binding, issuer-authentication and data-retention questions must remain visible where relevant.
+**Independent Evidence Review — OGS Interoperability and Ingestion.** The OGS B-3 v2 submission helped test NeoMundi Evidence ingestion, schema compatibility, artifact integrity and deterministic replay. It exposed four ingestion discrepancies: execution-kind representation, timestamp format, missing artifact role and list-valued pilot metadata. The adapter was corrected and regression-tested. The unchanged candidate then passed the documented technical ingestion checks, including 19 artifact hashes and byte counts and five deterministic replay cases.
+
+**Limit:** This establishes bounded ingestion compatibility, not upstream claim certification, general production readiness or complete scientific validation. [Technical reference — PR #24](https://github.com/neomundi-io/neomundi-evidence-public/pull/24).
+
+### Dennis Christie — ASIN-HHC / CP8
+
+**Independent Evidence Review — Reproducibility and execution evidence.** Dennis independently examined NeoMundi measurement receipts and evidence-verification boundaries using an existing controlled CP8 execution packet and reconciliation materials. His review distinguished a reported AI measurement from the underlying external tool execution. It also identified a raw aggregate (0.3863) versus an older normalized dashboard display (0.594): two NeoMundi representations, not conflicting measurements from two parties.
+
+The findings informed stronger digest-coverage handling, clearer separation of declared and independently verified relationships, additional regression checks and documentation improvements. [Technical reference — PR #38](https://github.com/neomundi-io/neomundi-evidence-public/pull/38).
+
+**Limits:** External execution is not yet cryptographically or operationally bound to the separate AI measurement. A SHA-256 digest is not a signature and does not authenticate an issuer. Issuer authentication and excerpt retention remain open. This is a bounded methodological review, not independent end-to-end validation, general performance certification or endorsement of the platform.
+
+Future contributor-specific reviews will be published only after explicit approval of their wording and attribution. No private execution packet or unapproved case-study claim is included.
 
 ## Evidence levels
 
