@@ -84,6 +84,14 @@ The findings informed stronger digest-coverage handling, clearer separation of d
 
 **Limits:** External execution is not yet cryptographically or operationally bound to the separate AI measurement. A SHA-256 digest is not a signature and does not authenticate an issuer. Issuer authentication and excerpt retention remain open. This is a bounded methodological review, not independent end-to-end validation, general performance certification or endorsement of the platform.
 
+### Olusanya Timothy — Conformance corpus and CLI verification contract (proposed, pending wording approval)
+
+**Independent Evidence Review — Dependency diagnostics and verification states.** In his November 2026 review, Timothy independently flagged misleading dependency diagnostics in the conformance harness: an optional dependency absent from the execution environment was being reported as a regression rather than identified as a missing prerequisite. He also raised a question about CLI exit-code contract semantics: **incomplete verification and failed verification are distinct states**. This is a contract-design discussion, **not a defect fix attributed to the reviewer**.
+
+The strict-mode coverage gap was already recorded in NeoMundi release notes. Timothy located it **in those notes** and relayed the flag; the original discovery and corrective implementation remain NeoMundi's. The resulting investigation and corrections were released in conformance corpus **1.3.0**. Timothy reported rerunning checks **on that release, not on his own branch**: 172 digests, byte-for-byte reproduction of 121 fixtures and 11 passing checks in his available Python environment; the Rust toolchain was not exercised by him.
+
+**Limits:** The review has open items. This credit does **not** imply that Timothy closed, validated, certified or signed off on the corpus, or endorsed NeoMundi. The observations and corrective code authorship are distinguished. **Attribution wording proposed for Timothy's review; publication approval for this Use Cases text is pending.** Technical trace: engine PRs #39 (corpus change) and #40 (acknowledgment), archived in the private engine repository; the latter was merged on 14 November 2026 as commit `6c5bb4c5`.
+
 Future contributor-specific reviews will be published only after explicit approval of their wording and attribution. No private execution packet or unapproved case-study claim is included.
 
 ## Evidence levels
