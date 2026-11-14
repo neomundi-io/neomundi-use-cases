@@ -12,7 +12,7 @@
 
 [![Measurement](https://img.shields.io/badge/Measurement-Mesurer-2563eb?style=flat-square)](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/README_FR.md)
 [![Station](https://img.shields.io/badge/Station-Observer-0f766e?style=flat-square)](https://github.com/neomundi-io/neomundi-station-public/blob/main/README.fr.md)
-[![Evidence](https://img.shields.io/badge/Evidence-Verifier-D4A545?style=flat-square)](https://github.com/neomundi-io/neomundi-evidence-public/blob/main/README.fr.md)
+[![Evidence](https://img.shields.io/badge/Evidence-Verifier-D4A545?style=flat-square)](https://github.com/neomundi-io/neomundi-evidence-gateway/blob/main/README.fr.md)
 [![Use cases](https://img.shields.io/badge/Cas_d_usage-Explorer-64748b?style=flat-square)](https://github.com/neomundi-io/neomundi-use-cases/blob/main/README_FR.md)
 
 **[API](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/QUICKSTART.md)** · **[Créer un compte](https://controltower.neomundi.io/welcome)**
@@ -37,7 +37,7 @@ Les résultats ci-dessous illustrent des **cas distincts** ; leur niveau E3 déc
 
 **Measurement** produit des signaux et leur couverture. **Station** conserve les conditions d’observation et les dossiers de campagne. **Evidence** permet de contrôler l’intégrité et certaines attestations des artefacts. Les partenaires conservent leurs politiques et décisions.
 
-[Découvrir Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/README_FR.md) · [Explorer Station](https://github.com/neomundi-io/neomundi-station-public/blob/main/README.fr.md) · [Vérifier avec Evidence](https://github.com/neomundi-io/neomundi-evidence-public/blob/main/README.fr.md)
+[Découvrir Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/README_FR.md) · [Explorer Station](https://github.com/neomundi-io/neomundi-station-public/blob/main/README.fr.md) · [Vérifier avec Evidence](https://github.com/neomundi-io/neomundi-evidence-gateway/blob/main/README.fr.md)
 
 ## Explorer par usage
 
@@ -73,13 +73,13 @@ Le statut s’applique uniquement au périmètre documenté. Il ne valide pas gl
 
 **Revue indépendante — Interopérabilité et ingestion OGS.** La soumission OGS B-3 v2 a permis de tester l’ingestion dans NeoMundi Evidence, la compatibilité des schémas, l’intégrité des artefacts et le replay déterministe. Elle a révélé quatre écarts d’ingestion : représentation du type d’exécution, format d’horodatage, rôle d’artefact manquant et métadonnées de pilote sous forme de liste. L’adaptateur a été corrigé et couvert par des tests de régression. Le candidat inchangé a ensuite passé les contrôles techniques d’ingestion documentés, notamment 19 empreintes et tailles d’artefacts ainsi que cinq cas de replay déterministe.
 
-**Limite :** Ce résultat démontre une compatibilité d’ingestion bornée, pas la certification des affirmations amont, la maturité générale en production ni une validation scientifique complète. [Référence technique — PR #24](https://github.com/neomundi-io/neomundi-evidence-public/pull/24).
+**Limite :** Ce résultat démontre une compatibilité d’ingestion bornée, pas la certification des affirmations amont, la maturité générale en production ni une validation scientifique complète. [Référence technique — PR #24 du moteur, commit de fusion `330ecb03`, 11 novembre 2026](https://github.com/neomundi-io/neomundi-evidence-gateway/blob/main/references/REVIEWS.fr.md#mark-mocnaj--project-petunia--judicator-ogs). Le dépôt du moteur Evidence est privé ; la pull request, son diff et son commit de fusion y existent inchangés, et la référence complète est consignée sur la page liée.
 
 ### Dennis Christie — ASIN-HHC / CP8
 
 **Revue indépendante — Reproductibilité et preuves d’exécution.** Dennis a examiné indépendamment les reçus de mesure NeoMundi et les limites de vérification des preuves à partir d’un dossier d’exécution CP8 contrôlé existant et de documents de réconciliation. Sa revue a distingué la mesure IA rapportée de l’exécution externe sous-jacente. Elle a aussi relevé un agrégat brut (0,3863) et un ancien affichage normalisé du portail (0,594) : deux représentations NeoMundi, non deux mesures contradictoires entre partenaires.
 
-Ces observations ont contribué à renforcer les contrôles de couverture des empreintes, la distinction entre liens déclarés et liens vérifiés indépendamment, les tests de régression et la documentation. [Référence technique — PR #38](https://github.com/neomundi-io/neomundi-evidence-public/pull/38).
+Ces observations ont contribué à renforcer les contrôles de couverture des empreintes, la distinction entre liens déclarés et liens vérifiés indépendamment, les tests de régression et la documentation. [Référence technique — PR #38 du moteur, commit de fusion `439d1549`, 13 novembre 2026](https://github.com/neomundi-io/neomundi-evidence-gateway/blob/main/references/REVIEWS.fr.md#dennis-christie--asin-hhc--cp8). Le dépôt du moteur Evidence est privé ; la pull request, son diff et son commit de fusion y existent inchangés, et la référence complète est consignée sur la page liée.
 
 **Limites :** L’exécution externe n’est pas encore rattachée cryptographiquement ou opérationnellement à la mesure IA distincte. Une empreinte SHA-256 n’est pas une signature et n’authentifie pas un émetteur. L’authentification des émetteurs et la conservation des extraits restent ouvertes. Cette revue méthodologique est bornée : elle ne constitue ni validation indépendante de bout en bout, ni certification de performance générale, ni approbation globale de la plateforme.
 

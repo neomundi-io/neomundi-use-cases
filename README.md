@@ -12,7 +12,7 @@
 
 [![Measurement](https://img.shields.io/badge/Measurement-Measure-2563eb?style=flat-square)](https://github.com/neomundi-io/neomundi-runtime-measurement)
 [![Station](https://img.shields.io/badge/Station-Observe-0f766e?style=flat-square)](https://github.com/neomundi-io/neomundi-station-public)
-[![Evidence](https://img.shields.io/badge/Evidence-Verify-D4A545?style=flat-square)](https://github.com/neomundi-io/neomundi-evidence-public)
+[![Evidence](https://img.shields.io/badge/Evidence-Verify-D4A545?style=flat-square)](https://github.com/neomundi-io/neomundi-evidence-gateway)
 [![Use cases](https://img.shields.io/badge/Use_cases-Explore-64748b?style=flat-square)](https://github.com/neomundi-io/neomundi-use-cases)
 
 **[API](https://github.com/neomundi-io/neomundi-runtime-measurement/blob/main/QUICKSTART.md)** · **[Create an account](https://controltower.neomundi.io/welcome)**
@@ -37,7 +37,7 @@ These results illustrate **different bounded use cases**. Their E3 levels descri
 
 **Measurement** provides signals and their coverage. **Station** preserves observation conditions and campaign records. **Evidence** checks integrity and specified attestations of the resulting artefacts. Partners retain their own policies and decisions.
 
-[Explore Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Explore Station](https://github.com/neomundi-io/neomundi-station-public) · [Verify with Evidence](https://github.com/neomundi-io/neomundi-evidence-public)
+[Explore Measurement](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Explore Station](https://github.com/neomundi-io/neomundi-station-public) · [Verify with Evidence](https://github.com/neomundi-io/neomundi-evidence-gateway)
 
 ## Explore by use case
 
@@ -73,13 +73,13 @@ Status applies only to the documented scope. It does not validate a partner tech
 
 **Independent Evidence Review — OGS Interoperability and Ingestion.** The OGS B-3 v2 submission helped test NeoMundi Evidence ingestion, schema compatibility, artifact integrity and deterministic replay. It exposed four ingestion discrepancies: execution-kind representation, timestamp format, missing artifact role and list-valued pilot metadata. The adapter was corrected and regression-tested. The unchanged candidate then passed the documented technical ingestion checks, including 19 artifact hashes and byte counts and five deterministic replay cases.
 
-**Limit:** This establishes bounded ingestion compatibility, not upstream claim certification, general production readiness or complete scientific validation. [Technical reference — PR #24](https://github.com/neomundi-io/neomundi-evidence-public/pull/24).
+**Limit:** This establishes bounded ingestion compatibility, not upstream claim certification, general production readiness or complete scientific validation. [Technical reference — engine PR #24, merge commit `330ecb03`, 11 November 2026](https://github.com/neomundi-io/neomundi-evidence-gateway/blob/main/references/REVIEWS.md#mark-mocnaj--project-petunia--judicator-ogs). The Evidence engine repository is private; the pull request, its diff and its merge commit exist unchanged inside it, and the full reference is recorded on the linked page.
 
 ### Dennis Christie — ASIN-HHC / CP8
 
 **Independent Evidence Review — Reproducibility and execution evidence.** Dennis independently examined NeoMundi measurement receipts and evidence-verification boundaries using an existing controlled CP8 execution packet and reconciliation materials. His review distinguished a reported AI measurement from the underlying external tool execution. It also identified a raw aggregate (0.3863) versus an older normalized dashboard display (0.594): two NeoMundi representations, not conflicting measurements from two parties.
 
-The findings informed stronger digest-coverage handling, clearer separation of declared and independently verified relationships, additional regression checks and documentation improvements. [Technical reference — PR #38](https://github.com/neomundi-io/neomundi-evidence-public/pull/38).
+The findings informed stronger digest-coverage handling, clearer separation of declared and independently verified relationships, additional regression checks and documentation improvements. [Technical reference — engine PR #38, merge commit `439d1549`, 13 November 2026](https://github.com/neomundi-io/neomundi-evidence-gateway/blob/main/references/REVIEWS.md#dennis-christie--asin-hhc--cp8). The Evidence engine repository is private; the pull request, its diff and its merge commit exist unchanged inside it, and the full reference is recorded on the linked page.
 
 **Limits:** External execution is not yet cryptographically or operationally bound to the separate AI measurement. A SHA-256 digest is not a signature and does not authenticate an issuer. Issuer authentication and excerpt retention remain open. This is a bounded methodological review, not independent end-to-end validation, general performance certification or endorsement of the platform.
 
