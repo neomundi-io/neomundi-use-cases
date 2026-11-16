@@ -58,7 +58,7 @@ The following applications show **distinct roles for measurement, evidence and d
 ## Technical depth, without clutter
 
 - [Complete technical catalogue — 12 pilot entries, status, evidence levels and independent reviews](CATALOG.md)
-- [Measurement API](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Evidence verification](https://github.com/neomundi-io/neomundi-evidence-gateway)
+- [Measurement API](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Evidence gateway interface](https://github.com/neomundi-io/neomundi-evidence-gateway)
 - [NeoMundi product architecture](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md)
 
 The cases above are **bounded demonstrations and research pilots**, not certifications, universal reliability findings or proof of regulatory compliance. Review each linked protocol for its exact coverage and limits.
