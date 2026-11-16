@@ -118,8 +118,6 @@ A missing public artifact is not replaced by a status label. Synthetic, controll
 - [Kabbalah App — public evidence summary](./evidence/kabbalah-app-rag/README.md)
 - [VERITAS — RGC v0.2 adapter](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md)
 - [Mark Mocnaj / Project Petunia × Judicator (OGS) — public interoperability pilot](https://github.com/UmjetnaInteligencija/ogs-neomundi-public-interoperability-pilot)
-- [NeoMundi × ASRO — Runtime Governance Evidence](./collaborations/asro/runtime-governance-evidence.md)
-- [NeoMundi × ASRO — Independent Evidence Review, Round 2](./collaborations/asro/independent-evidence-review-round-2.md)
 
 ## Interoperability & integration
 
