@@ -109,6 +109,9 @@ A missing public artifact is not replaced by a status label. Synthetic, controll
 
 ## Detailed evidence
 
+- **ODA3 Institute — independent Evidence review (6 Nov 2026):** [PR #10 consolidation record](./catalog/oda3/pr-10/ODA3_CONSOLIDATION.md) · [PR #11 provenance R-6](./catalog/oda3/pr-11/R6_PROVENANCE_CONTRACT.md) · [PR #11 comparative replay](./catalog/oda3/pr-11/COMPARATIVE_REPORT.md). These are verbatim copies of selected merged technical documents from the private Evidence repository, **not** replacements for the original PR histories or the complete reproducibility package. Independent verification remains limited to the evidence and instruments made accessible; the documented `NOT TESTED` and open issues remain unchanged.
+
+
 - [AI Business — controlled agent audit](https://github.com/neomundi-io/use-case-aibusiness-runtime-conformity)
 - [OmarAGI / REVAS — partner pilot](https://github.com/effacermonexistence/omaragi-neomundi-pilot)
 - [OASSE — runtime governance](https://github.com/neomundi-io/use-case-oasse-runtime-governance)
