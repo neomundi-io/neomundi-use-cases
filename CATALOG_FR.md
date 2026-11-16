@@ -121,6 +121,12 @@ Un artefact public manquant n’est pas remplacé par un statut. Les preuves syn
 - [NeoMundi × ASRO — Runtime Governance Evidence](./collaborations/asro/runtime-governance-evidence.md)
 - [NeoMundi × ASRO — Independent Evidence Review, Round 2](./collaborations/asro/independent-evidence-review-round-2.md)
 
+## Interopérabilité et intégration
+
+Le **[contrat JSON RGC — NeoMundi Measurement Interoperability](https://github.com/neomundi-io/neomundi-measurement-interoperability)** est l'interface technique entre la mesure runtime et les systèmes consommateurs indépendants. Il documente les enregistrements versionnés, signatures, schémas, vérification et exemples d'intégration. Les systèmes destinataires conservent leurs décisions, politiques et autorisations d'exécution. Ce contrat ne constitue **ni** un pilote métier, **ni** une certification, **ni** le vérificateur indépendant des archives Evidence.
+
+Le dépôt du contrat reste la source de vérité unique. Consulter sa documentation pour les versions, paliers et routes API applicables.
+
 ## Infrastructure et programmes de soutien
 
 La démarche indépendante d'observation et de mesure des IA de NeoMundi bénéficie de soutiens en matière d'infrastructure et de programmes d'accompagnement des startups :
