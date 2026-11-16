@@ -58,7 +58,7 @@ Les applications ci-dessous distinguent les rôles de la mesure, de la preuve et
 ## Aller plus loin sans alourdir la lecture
 
 - [Catalogue technique complet — 12 entrées pilotes, statuts, niveaux de preuve et revues indépendantes](CATALOG_FR.md)
-- [API de mesure](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Vérification Evidence](https://github.com/neomundi-io/neomundi-evidence-gateway)
+- [API de mesure](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Interface Evidence](https://github.com/neomundi-io/neomundi-evidence-gateway)
 - [Architecture produit NeoMundi](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md)
 
 Ces cas sont des **démonstrations bornées et des pilotes de recherche**, et non des certifications, preuves de fiabilité générale ou preuves de conformité réglementaire. Chaque protocole lié définit sa couverture et ses limites.
