@@ -121,6 +121,12 @@ A missing public artifact is not replaced by a status label. Synthetic, controll
 - [NeoMundi × ASRO — Runtime Governance Evidence](./collaborations/asro/runtime-governance-evidence.md)
 - [NeoMundi × ASRO — Independent Evidence Review, Round 2](./collaborations/asro/independent-evidence-review-round-2.md)
 
+## Interoperability & integration
+
+**[NeoMundi Measurement Interoperability — RGC JSON contract](https://github.com/neomundi-io/neomundi-measurement-interoperability)** is the technical exchange interface between runtime measurement and independent consumer systems. It documents versioned measurement records, signing, schemas, verification and consumer examples. Downstream systems retain their interpretation, policy and execution authority; this contract is **not** itself a business pilot, a certification or the independent Evidence archive verifier.
+
+The contract is maintained in its own repository as the single source of truth. See its documentation for version, tier and endpoint requirements.
+
 ## Infrastructure & Program Support
 
 NeoMundi's independent AI observation and measurement initiative benefits from infrastructure and startup program support:
