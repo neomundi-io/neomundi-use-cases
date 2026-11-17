@@ -93,6 +93,16 @@ The following applications show **distinct roles for measurement, evidence and d
 
 The cases above are **bounded demonstrations and research pilots**, not certifications, universal reliability findings or proof of regulatory compliance. Review each linked protocol for its exact coverage and limits.
 
+## Independent Evidence Reviews — legacy links
+
+The independent technical reviews have moved to the [technical catalogue](CATALOG.md#independent-evidence-reviews). The links below preserve older README anchors shared by email.
+
+- <a id="mark-mocnaj--project-petunia--judicator-ogs"></a>[Mark Mocnaj — Project Petunia × Judicator (OGS)](CATALOG.md#mark-mocnaj--project-petunia--judicator-ogs)
+- <a id="dennis-christie--asin-hhc--cp8"></a>[Dennis Christie — ASIN-HHC / CP8](CATALOG.md#dennis-christie--asin-hhc--cp8)
+- <a id="olusanya-timothy--conformance-corpus-and-cli-verification-contract"></a>[Olusanya Timothy — Conformance corpus and CLI verification contract](CATALOG.md#olusanya-timothy--conformance-corpus-and-cli-verification-contract)
+
+---
+
 ## Your organisation, your use case
 
 **[Explore the live demo](https://neomundi.io/demo/)** · **[Discuss a NeoMundi deployment](https://neomundi.io/contact-us/)**
