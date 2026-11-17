@@ -43,6 +43,16 @@ Ces observations ont contribué à renforcer les contrôles de couverture des em
 
 **Limites :** L’exécution externe n’est pas encore rattachée cryptographiquement ou opérationnellement à la mesure IA distincte. Une empreinte SHA-256 n’est pas une signature et n’authentifie pas un émetteur. L’authentification des émetteurs et la conservation des extraits restent ouvertes. Cette revue méthodologique est bornée : elle ne constitue ni validation indépendante de bout en bout, ni certification de performance générale, ni approbation globale de la plateforme.
 
+### Pradeep Kumar — AI Systems Architect & STANAIC Fellow
+
+**Revue indépendante — Tests adversariaux, compatibilité des schémas et renforcement cryptographique du registre.** Crédit : [Pradeep Kumar — AI Systems Architect & STANAIC Fellow (@pradeepkumar-ai-byte)](https://github.com/pradeepkumar-ai-byte).
+
+Pradeep a transmis un audit technique et un ensemble de modules proposés, puis une version v1.1 renforcée en vue d'un contre-audit. Son travail a soulevé des questions concrètes concernant le rattachement des observations, la compatibilité des schémas, l'invariance du streaming, la vérification, les méthodes de calibration proposées et le **cryptographic ledger hardening**. Ces contributions ont permis d'identifier des points à qualifier et à tester davantage dans NeoMundi Evidence.
+
+Dans son retour du 17 novembre 2026 sur la RC1, Pradeep constate un **alignement partiel** avec `leader/1` : ses reçus d'exécution LEADER contiennent des feuilles structurées avec des nonces d'autorité, et il juge que la normalisation aplatie de `leader_receipt.py` en fournit une représentation résistante aux modifications non détectées. Il approuve les refus stricts de schéma (`additionalProperties: false`) avec acceptation des BOM UTF-8 et estime que `05_KNOWN_LIMITATIONS.md` expose honnêtement les limites.
+
+**Limites :** ces observations sont celles de Pradeep. Elles ne démontrent ni reproduction indépendante de bout en bout, ni déploiement en production des modules soumis, ni compatibilité complète certifiée de `leader/1`, ni calibration scientifique des évaluateurs, ni approbation générale de la plateforme. [Attribution et formulation explicitement approuvées par Pradeep le 17 novembre 2026](https://github.com/pradeepkumar-ai-byte).
+
 ### Olusanya Timothy — Corpus de conformité et contrat de vérification CLI
 
 **Revue indépendante — Diagnostic des dépendances et états de vérification.** Lors de sa revue de novembre 2026, Timothy a indépendamment signalé des diagnostics trompeurs dans le banc de conformité : l'absence d'une dépendance optionnelle dans l'environnement d'exécution était présentée comme une régression plutôt que comme un prérequis manquant. Il a également soulevé une question de contrat sur les codes de sortie CLI : **une vérification incomplète et une vérification échouée sont deux états distincts**. Il s'agit d'une discussion sur l'évolution du contrat, **pas d'une correction de défaut attribuée au relecteur**.

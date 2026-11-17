@@ -43,6 +43,16 @@ The findings informed stronger digest-coverage handling, clearer separation of d
 
 **Limits:** External execution is not yet cryptographically or operationally bound to the separate AI measurement. A SHA-256 digest is not a signature and does not authenticate an issuer. Issuer authentication and excerpt retention remain open. This is a bounded methodological review, not independent end-to-end validation, general performance certification or endorsement of the platform.
 
+### Pradeep Kumar — AI Systems Architect & STANAIC Fellow
+
+**Independent Evidence Review — Adversarial Testing, Schema Compatibility and Cryptographic Ledger Hardening.** Credit: [Pradeep Kumar — AI Systems Architect & STANAIC Fellow (@pradeepkumar-ai-byte)](https://github.com/pradeepkumar-ai-byte).
+
+Pradeep submitted a technical audit and solutions package, followed by a hardened v1.1 package for counter-audit. His work raised practical questions concerning observation linkage, schema compatibility, streaming invariance, verification, proposed calibration methods and **cryptographic ledger hardening**. These contributions helped identify areas for further testing and qualification of NeoMundi Evidence.
+
+In his 17 November 2026 RC1 feedback, Pradeep reported **partial alignment** with `leader/1`: his LEADER execution receipts form structured leaf records with authority nonces, and he considered the `leader_receipt.py` leaf-flattening normalizer a suitable tamper-evident representation of those trees. He endorsed strict schema refusals (`additionalProperties: false`) alongside UTF-8 BOM acceptance, and considered the limitations in `05_KNOWN_LIMITATIONS.md` appropriately bounded.
+
+**Limits:** These are Pradeep's review observations, not independently replicated end-to-end results, proof that submitted modules were deployed in NeoMundi production, certification of `leader/1` compatibility, scientific calibration of evaluators or endorsement of the platform. [Attribution and wording explicitly approved by Pradeep, 17 November 2026](https://github.com/pradeepkumar-ai-byte).
+
 ### Olusanya Timothy — Conformance corpus and CLI verification contract
 
 **Independent Evidence Review — Dependency diagnostics and verification states.** In his November 2026 review, Timothy independently flagged misleading dependency diagnostics in the conformance harness: an optional dependency absent from the execution environment was being reported as a regression rather than identified as a missing prerequisite. He also raised a question about CLI exit-code contract semantics: **incomplete verification and failed verification are distinct states**. This is a contract-design discussion, **not a defect fix attributed to the reviewer**.
