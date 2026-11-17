@@ -99,6 +99,7 @@ The independent technical reviews have moved to the [technical catalogue](CATALO
 
 - <a id="mark-mocnaj--project-petunia--judicator-ogs"></a>[Mark Mocnaj — Project Petunia × Judicator (OGS)](CATALOG.md#mark-mocnaj--project-petunia--judicator-ogs)
 - <a id="dennis-christie--asin-hhc--cp8"></a>[Dennis Christie — ASIN-HHC / CP8](CATALOG.md#dennis-christie--asin-hhc--cp8)
+- <a id="pradeep-kumar--independent-evidence-review"></a>[Pradeep Kumar — AI Systems Architect & STANAIC Fellow](CATALOG.md#pradeep-kumar--ai-systems-architect--stanaic-fellow)
 - <a id="olusanya-timothy--conformance-corpus-and-cli-verification-contract"></a>[Olusanya Timothy — Conformance corpus and CLI verification contract](CATALOG.md#olusanya-timothy--conformance-corpus-and-cli-verification-contract)
 
 ---
