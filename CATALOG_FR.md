@@ -128,8 +128,6 @@ Un artefact public manquant n’est pas remplacé par un statut. Les preuves syn
 - [Kabbalah App — synthèse publique des preuves](./evidence/kabbalah-app-rag/README_FR.md)
 - [VERITAS — adaptateur RGC v0.2](https://github.com/veritasfuji-japan/veritas_os/blob/main/docs/en/architecture/neomundi-rgc-v02-adapter.md)
 - [Mark Mocnaj / Project Petunia × Judicator (OGS) — pilote public d’interopérabilité](https://github.com/UmjetnaInteligencija/ogs-neomundi-public-interoperability-pilot)
-- [NeoMundi × ASRO — Runtime Governance Evidence](./collaborations/asro/runtime-governance-evidence.md)
-- [NeoMundi × ASRO — Independent Evidence Review, Round 2](./collaborations/asro/independent-evidence-review-round-2.md)
 
 ## Interopérabilité et intégration
 
