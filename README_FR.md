@@ -4,7 +4,7 @@
 
 # Des problèmes métier. Des résultats documentés. Des preuves consultables.
 
-**Comprendre ce que font vos IA, examiner ce qui s'est passé et décider à partir de mesures traçables.**
+**Savoir ce que fait votre IA. Prouver ce qui s'est passé. Moins de suppositions. Plus de preuves.**
 
 **INSTALL → TRACE → MEASURE → VERIFY → ACT**
 
@@ -14,13 +14,29 @@
 
 ---
 
-## Partir du problème métier
+## Explorer 7 besoins IA — accéder aux démonstrations
 
-Les applications ci-dessous distinguent les rôles de la mesure, de la preuve et des décisions en aval. **Un pilote n'est pas une référence client commerciale** ; les résultats restent limités aux conditions publiées.
+**Une primitive de mesure. De multiples applications. De multiples infrastructures.**
 
-**Accès direct :** [Audit des agents](#01--audit-des-agents-ia) · [Contrôle d'exécution](#02--contrôle-de-lexécution) · [Preuve & audit](#03--preuve--audit) · [Qualité RAG](#04--qualité-des-assistants-rag)
+Partez du problème que votre équipe veut résoudre. Chaque lien mène à une démonstration NeoMundi publiée ; les fiches détaillées distinguent les **démos illustratives** des **preuves documentées des pilotes**.
+
+| Votre besoin | La question métier | Découvrir |
+| --- | --- | --- |
+| **01 · Audit des agents IA** | L'agent a-t-il réellement fait ce qu'il affirme ? | [Démo 5 — actions d'un agent](https://neomundi.io/fr/demonstration-5/) |
+| **02 · Contrôle d'exécution** | Comment les observations éclairent-elles un contrôle en aval ? | [Démo 4 — agent en action](https://neomundi.io/fr/demonstration-4/) |
+| **03 · Preuve et audit** | Un tiers peut-il examiner ce qui s'est passé ? | [Démo — parcours de preuve](https://neomundi.io/fr/demonstration/) |
+| **04 · Qualité RAG** | Que change l'évaluation d'un assistant ? | [Démo 6 — assistant RAG](https://neomundi.io/fr/demonstration-6/) |
+| **05 · IA en santé** | Que peut-on examiner dans un contexte sensible ? | [Démo 3 — santé](https://neomundi.io/fr/demo-3/) |
+| **06 · Comparaison de modèles** | Comment comparer les réponses des modèles ? | [Démo 2 — comparaison](https://neomundi.io/fr/demonstration-2/) |
+| **07 · Réponses contradictoires** | Que se passe-t-il lorsque deux réponses s'opposent ? | [Démo 7 — réponses opposées](https://neomundi.io/fr/demonstration-7/) |
+
+**Choisir un besoin → voir la démo → consulter les documents techniques.** Les démos illustrent des parcours produit ; elles ne constituent pas des résultats pilotes supplémentaires.
 
 ---
+
+## Cas documentés — problèmes, preuves et démonstrations
+
+Les cas ci-dessous distinguent **mesure**, **preuve** et **décision en aval**. Un pilote n'est pas une référence client commerciale ; les preuves conservent le périmètre précisé dans leurs sources.
 
 ## 01 — AUDIT DES AGENTS IA
 
@@ -35,6 +51,8 @@ Les applications ci-dessous distinguent les rôles de la mesure, de la preuve et
 | **Sergei Ponomarev / AI Business** · **E0 — En cours** | Mesure indépendante des réponses pour alimenter une comparaison distincte entre promesses, dialogue et journal d'exécution. Série du **6 novembre au 5 décembre 2026** ; résultats et identités des modèles **non publiés**. | [Protocole public](https://github.com/sergeiperm81-ux/ai-test-purchase) |
 
 **Valeur métier →** Distinguer les observations de l'autorité chargée de juger l'exécution réelle de l'agent.
+
+**[Voir la démo 5 — prouver les actions d'un agent](https://neomundi.io/fr/demonstration-5/)** · Démonstration produit ; les sources ci-dessus restent les preuves des pilotes.
 
 ---
 
@@ -52,6 +70,8 @@ Les applications ci-dessous distinguent les rôles de la mesure, de la preuve et
 
 **Valeur métier →** Conserver des responsabilités séparées entre mesure, politique et décision opérationnelle.
 
+**[Voir la démo 4 — mesurer un agent en action](https://neomundi.io/fr/demonstration-4/)** · Illustration d'un parcours agentique, pas une validation universelle des actions en aval.
+
 ---
 
 ## 03 — PREUVE & AUDIT
@@ -68,6 +88,8 @@ Les applications ci-dessous distinguent les rôles de la mesure, de la preuve et
 
 **Valeur métier →** Examiner ce que les preuves étayent réellement, avec intégrité et provenance explicites.
 
+**[Voir la démonstration NeoMundi](https://neomundi.io/fr/demonstration/)** · Les pilotes cités restent les références des preuves.
+
 ---
 
 ## 04 — QUALITÉ DES ASSISTANTS RAG
@@ -83,16 +105,62 @@ Les applications ci-dessous distinguent les rôles de la mesure, de la preuve et
 
 **Valeur métier →** Documenter les changements observés plutôt que se fier aux impressions.
 
+**[Voir la démo 6 — mesurer un assistant RAG](https://neomundi.io/fr/demonstration-6/)** · Démonstration distincte des résultats Kabbalah App.
+
 ---
 
-## Aller plus loin sans alourdir la lecture
+## 05 — IA EN SANTÉ
 
-- [Catalogue technique complet — 12 entrées pilotes, statuts, niveaux de preuve et revues indépendantes](CATALOG_FR.md)
-- [API de mesure](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Interface Evidence](https://github.com/neomundi-io/neomundi-evidence-gateway)
-- [Architecture produit NeoMundi](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md)
+### Comment examiner le comportement d'une IA dans un domaine sensible ?
 
-Ces cas sont des **démonstrations bornées et des pilotes de recherche**, et non des certifications, preuves de fiabilité générale ou preuves de conformité réglementaire. Chaque protocole lié définit sa couverture et ses limites.
+**Besoin métier →** Examiner une réponse avec son contexte de mesure et de preuve, plutôt que se fier à une affirmation non étayée.
 
-## Et dans votre organisation ?
+**Approche NeoMundi →** Instrumenter l'interaction, consulter les signaux comportementaux et conserver le dossier technique.
 
-**[Explorer la démo](https://neomundi.io/fr/demonstration/)** · **[Étudier un déploiement](https://neomundi.io/fr/contact/)**
+**[Voir la démo 3 — mesurer une IA de santé](https://neomundi.io/fr/demo-3/)** · Démonstration produit NeoMundi.
+
+**Preuve documentée complémentaire →** [Pilote FactNotebook / PubMedQA](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa). Il s'agit d'un pilote distinct, sans revendication de vérité médicale.
+
+---
+
+## 06 — COMPARAISON DE MODÈLES
+
+### Comment documenter les différences entre réponses de modèles IA ?
+
+**Besoin métier →** Comparer les réponses en conservant les conditions de mesure.
+
+**Approche NeoMundi →** Enregistrer les observations, consulter les signaux disponibles et expliciter le contexte de comparaison.
+
+**[Voir la démo 2 — comparaison de modèles IA](https://neomundi.io/fr/demonstration-2/)** · Démonstration produit, pas un benchmark comparatif publié.
+
+---
+
+## 07 — RÉPONSES CONTRADICTOIRES
+
+### Que faire lorsque deux réponses IA se contredisent ?
+
+**Besoin métier →** Examiner les réponses opposées sans confondre un score et une preuve de vérité factuelle.
+
+**Approche NeoMundi →** Présenter les observations et les éléments de mesure disponibles pour permettre l'examen du désaccord.
+
+**[Voir la démo 7 — deux réponses opposées, un seul verdict](https://neomundi.io/fr/demonstration-7/)** · Scénario produit illustratif, dont les conclusions restent liées au contexte de la démonstration.
+
+---
+
+## Pour aller plus loin — ressources et revues indépendantes
+
+| Ressource | Accéder |
+| --- | --- |
+| **Catalogue complet des pilotes** | [12 entrées documentées, niveaux de preuve et références](CATALOG_FR.md) |
+| **Measurement / Station / Evidence** | [API de mesure](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Evidence](https://github.com/neomundi-io/neomundi-evidence-gateway) |
+| **Architecture** | [Architecture produit NeoMundi](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md) |
+| **Revues indépendantes** | [Catalogue technique et revues](CATALOG_FR.md) |
+| **Toutes les démonstrations** | [Découvrir NeoMundi](https://neomundi.io/fr/demonstration/) |
+
+Les cas documentés sont des **démonstrations bornées et pilotes de recherche**, pas des certifications ni des preuves de conformité réglementaire. Les démos illustrent des parcours produit ; les protocoles décrivent la portée des preuves.
+
+---
+
+## Votre organisation, votre cas d'usage
+
+**[Explorer les démos](https://neomundi.io/fr/demonstration/)** · **[Étudier un déploiement](https://neomundi.io/fr/contact/)**
