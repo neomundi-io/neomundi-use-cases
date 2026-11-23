@@ -8,7 +8,7 @@
 
 **INSTALL → TRACE → MEASURE → VERIFY → ACT**
 
-**[Explorer les démos](https://neomundi.io/fr/demonstration/)** · **[Voir les 7 besoins](#explorer-7-besoins-ia--accéder-aux-démonstrations)** · **[Étudier un déploiement](https://neomundi.io/fr/contact/)**
+**[Explorer les démos](https://neomundi.io/fr/demo/)** · **[Voir les 7 besoins](#explorer-7-besoins-ia--accéder-aux-démonstrations)** · **[Étudier un déploiement](https://neomundi.io/fr/contact/)**
 
 [Architecture produit](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.fr.md) · [Tous les composants](https://github.com/orgs/neomundi-io/repositories)
 
@@ -39,13 +39,13 @@ Partez du problème que votre équipe veut résoudre. Chaque lien mène à une d
 
 | Votre besoin | La question métier | Découvrir |
 | --- | --- | --- |
-| **01 · Audit des agents IA** | L'agent a-t-il réellement fait ce qu'il affirme ? | [Démo 5 — actions d'un agent](https://neomundi.io/fr/demonstration-5/) |
-| **02 · Contrôle d'exécution** | Comment les observations éclairent-elles un contrôle en aval ? | [Démo 4 — agent en action](https://neomundi.io/fr/demonstration-4/) |
-| **03 · Preuve et audit** | Un tiers peut-il examiner ce qui s'est passé ? | [Démo — parcours de preuve](https://neomundi.io/fr/demonstration/) |
-| **04 · Qualité RAG** | Que change l'évaluation d'un assistant ? | [Démo 6 — assistant RAG](https://neomundi.io/fr/demonstration-6/) |
+| **01 · Audit des agents IA** | L'agent a-t-il réellement fait ce qu'il affirme ? | [Démo 5 — actions d'un agent](https://neomundi.io/fr/demo-5/) |
+| **02 · Contrôle d'exécution** | Comment les observations éclairent-elles un contrôle en aval ? | [Démo 4 — agent en action](https://neomundi.io/fr/demo-4/) |
+| **03 · Preuve et audit** | Un tiers peut-il examiner ce qui s'est passé ? | [Démo — parcours de preuve](https://neomundi.io/fr/demo/) |
+| **04 · Qualité RAG** | Que change l'évaluation d'un assistant ? | [Démo 6 — assistant RAG](https://neomundi.io/fr/demo-6/) |
 | **05 · IA en santé** | Que peut-on examiner dans un contexte sensible ? | [Démo 3 — santé](https://neomundi.io/fr/demo-3/) |
-| **06 · Comparaison de modèles** | Comment comparer les réponses des modèles ? | [Démo 2 — comparaison](https://neomundi.io/fr/demonstration-2/) |
-| **07 · Réponses contradictoires** | Que se passe-t-il lorsque deux réponses s'opposent ? | [Démo 7 — réponses opposées](https://neomundi.io/fr/demonstration-7/) |
+| **06 · Comparaison de modèles** | Comment comparer les réponses des modèles ? | [Démo 2 — comparaison](https://neomundi.io/fr/demo-2/) |
+| **07 · Réponses contradictoires** | Que se passe-t-il lorsque deux réponses s'opposent ? | [Démo 7 — réponses opposées](https://neomundi.io/fr/demo-7/) |
 
 **Choisir un besoin → voir la démo → consulter les documents techniques.** Les démos illustrent des parcours produit ; elles ne constituent pas des résultats pilotes supplémentaires.
 
@@ -69,7 +69,7 @@ Les cas ci-dessous distinguent **mesure**, **preuve** et **décision en aval**. 
 
 **Valeur métier →** Distinguer les observations de l'autorité chargée de juger l'exécution réelle de l'agent.
 
-**[Voir la démo 5 — prouver les actions d'un agent](https://neomundi.io/fr/demonstration-5/)** · Démonstration produit ; les sources ci-dessus restent les preuves des pilotes.
+**[Voir la démo 5 — prouver les actions d'un agent](https://neomundi.io/fr/demo-5/)** · Démonstration produit ; les sources ci-dessus restent les preuves des pilotes.
 
 ---
 
@@ -87,7 +87,7 @@ Les cas ci-dessous distinguent **mesure**, **preuve** et **décision en aval**. 
 
 **Valeur métier →** Conserver des responsabilités séparées entre mesure, politique et décision opérationnelle.
 
-**[Voir la démo 4 — mesurer un agent en action](https://neomundi.io/fr/demonstration-4/)** · Illustration d'un parcours agentique, pas une validation universelle des actions en aval.
+**[Voir la démo 4 — mesurer un agent en action](https://neomundi.io/fr/demo-4/)** · Illustration d'un parcours agentique, pas une validation universelle des actions en aval.
 
 ---
 
@@ -105,7 +105,7 @@ Les cas ci-dessous distinguent **mesure**, **preuve** et **décision en aval**. 
 
 **Valeur métier →** Examiner ce que les preuves étayent réellement, avec intégrité et provenance explicites.
 
-**[Voir la démonstration NeoMundi](https://neomundi.io/fr/demonstration/)** · Les pilotes cités restent les références des preuves.
+**[Voir la démonstration NeoMundi](https://neomundi.io/fr/demo/)** · Les pilotes cités restent les références des preuves.
 
 ---
 
@@ -122,7 +122,7 @@ Les cas ci-dessous distinguent **mesure**, **preuve** et **décision en aval**. 
 
 **Valeur métier →** Documenter les changements observés plutôt que se fier aux impressions.
 
-**[Voir la démo 6 — mesurer un assistant RAG](https://neomundi.io/fr/demonstration-6/)** · Démonstration distincte des résultats Kabbalah App.
+**[Voir la démo 6 — mesurer un assistant RAG](https://neomundi.io/fr/demo-6/)** · Démonstration distincte des résultats Kabbalah App.
 
 ---
 
@@ -148,7 +148,7 @@ Les cas ci-dessous distinguent **mesure**, **preuve** et **décision en aval**. 
 
 **Approche NeoMundi →** Enregistrer les observations, consulter les signaux disponibles et expliciter le contexte de comparaison.
 
-**[Voir la démo 2 — comparaison de modèles IA](https://neomundi.io/fr/demonstration-2/)** · Démonstration produit, pas un benchmark comparatif publié.
+**[Voir la démo 2 — comparaison de modèles IA](https://neomundi.io/fr/demo-2/)** · Démonstration produit, pas un benchmark comparatif publié.
 
 ---
 
@@ -160,7 +160,7 @@ Les cas ci-dessous distinguent **mesure**, **preuve** et **décision en aval**. 
 
 **Approche NeoMundi →** Présenter les observations et les éléments de mesure disponibles pour permettre l'examen du désaccord.
 
-**[Voir la démo 7 — deux réponses opposées, un seul verdict](https://neomundi.io/fr/demonstration-7/)** · Scénario produit illustratif, dont les conclusions restent liées au contexte de la démonstration.
+**[Voir la démo 7 — deux réponses opposées, un seul verdict](https://neomundi.io/fr/demo-7/)** · Scénario produit illustratif, dont les conclusions restent liées au contexte de la démonstration.
 
 ---
 
@@ -172,7 +172,7 @@ Les cas ci-dessous distinguent **mesure**, **preuve** et **décision en aval**. 
 | **Measurement / Station / Evidence** | [API de mesure](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Evidence](https://github.com/neomundi-io/neomundi-evidence-gateway) |
 | **Architecture** | [Architecture produit NeoMundi](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md) |
 | **Revues indépendantes** | [Catalogue technique et revues](CATALOG_FR.md) |
-| **Toutes les démonstrations** | [Découvrir NeoMundi](https://neomundi.io/fr/demonstration/) |
+| **Toutes les démonstrations** | [Découvrir NeoMundi](https://neomundi.io/fr/demo/) |
 
 Les cas documentés sont des **démonstrations bornées et pilotes de recherche**, pas des certifications ni des preuves de conformité réglementaire. Les démos illustrent des parcours produit ; les protocoles décrivent la portée des preuves.
 
@@ -180,4 +180,4 @@ Les cas documentés sont des **démonstrations bornées et pilotes de recherche*
 
 ## Votre organisation, votre cas d'usage
 
-**[Explorer les démos](https://neomundi.io/fr/demonstration/)** · **[Étudier un déploiement](https://neomundi.io/fr/contact/)**
+**[Explorer les démos](https://neomundi.io/fr/demo/)** · **[Étudier un déploiement](https://neomundi.io/fr/contact/)**
