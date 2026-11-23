@@ -4,7 +4,7 @@
 
 # AI use cases. Real questions. Documented evidence.
 
-**Understand what your AI systems do, examine what happened and decide with traceable measurements.**
+**Know what your AI does. Prove what happened. Less guesswork. More evidence.**
 
 **INSTALL → TRACE → MEASURE → VERIFY → ACT**
 
@@ -14,13 +14,29 @@
 
 ---
 
-## Start with the business problem
+## Explore 7 AI needs — choose a live demo
 
-The following applications show **distinct roles for measurement, evidence and downstream decisions**. Pilot work is not a commercial customer reference; results are limited to the published conditions.
+**One measurement primitive. Multiple applications. Multiple infrastructures.**
 
-**Jump to a business problem:** [Agent audit](#01--ai-agent-audit) · [Execution control](#02--agent-execution-control) · [Evidence & audit](#03--evidence--audit) · [RAG quality](#04--rag-quality)
+Start with the problem your team needs to solve. Each link opens a published NeoMundi demonstration; the detailed cases below distinguish **illustrative demos** from **documented pilot evidence**.
+
+| Your small need | What you want to know | Explore |
+| --- | --- | --- |
+| **01 · AI agent audit** | Did an agent do what it claimed? | [Live demo 5 — agent actions](https://neomundi.io/demo-5/) |
+| **02 · Agent execution control** | What can observations tell a downstream gatekeeper? | [Live demo 4 — agent in action](https://neomundi.io/demo-4/) |
+| **03 · Evidence & audit** | Can someone else inspect what happened? | [Live demo — evidence journey](https://neomundi.io/demo/) |
+| **04 · RAG quality** | What changes when an assistant is evaluated? | [Live demo 6 — RAG assistant](https://neomundi.io/demo-6/) |
+| **05 · Healthcare AI** | What can be examined in a sensitive AI scenario? | [Live demo 3 — healthcare](https://neomundi.io/demo-3/) |
+| **06 · Model comparison** | How can you compare AI model responses? | [Live demo 2 — model comparison](https://neomundi.io/demo-2/) |
+| **07 · Conflicting answers** | What happens when two answers disagree? | [Live demo 7 — opposite answers](https://neomundi.io/demo-7/) |
+
+**Explore a need → inspect the demonstration → open the underlying documentation.** Live demos are product illustrations, not additional pilot results.
 
 ---
+
+## Documented use cases — problems, evidence, demos
+
+The cases below keep **measurement**, **evidence** and **downstream decisions** distinct. Pilot work is not a commercial customer reference; published evidence has the scope stated in each source.
 
 ## 01 — AI AGENT AUDIT
 
@@ -35,6 +51,8 @@ The following applications show **distinct roles for measurement, evidence and d
 | **Sergei Ponomarev / AI Business** · **E0 — Ongoing** | Independent runtime measurements support the separate promise/dialogue/journal comparison. Series: **6 Nov–5 Dec 2026**. Results and model identities **not yet publicly released**. | [Public protocol](https://github.com/sergeiperm81-ux/ai-test-purchase) |
 
 **Business value →** Trace observations separately from the authority that decides whether an agent did what it claimed.
+
+**[Explore live demo 5 — proving what an AI agent did](https://neomundi.io/demo-5/)** · Product demonstration; pilot proof remains in the sources above.
 
 ---
 
@@ -52,6 +70,8 @@ The following applications show **distinct roles for measurement, evidence and d
 
 **Business value →** Keep the measurement, policy and operational authorities explicit and separate.
 
+**[Explore live demo 4 — measuring an agent in action](https://neomundi.io/demo-4/)** · A demonstration of an agent workflow, not a verification of every downstream action.
+
 ---
 
 ## 03 — EVIDENCE & AUDIT
@@ -68,6 +88,8 @@ The following applications show **distinct roles for measurement, evidence and d
 
 **Business value →** Test what evidence can actually support, with integrity and source boundaries clearly documented.
 
+**[Explore the NeoMundi evidence demonstration](https://neomundi.io/demo/)** · The published pilot links above remain the evidence references.
+
 ---
 
 ## 04 — RAG QUALITY
@@ -83,27 +105,69 @@ The following applications show **distinct roles for measurement, evidence and d
 
 **Business value →** Document observable changes instead of relying on impressions.
 
+**[Explore live demo 6 — measuring a RAG assistant](https://neomundi.io/demo-6/)** · Illustrative product demonstration, separate from the Kabbalah App results.
+
 ---
 
-## Technical depth, without clutter
+## 05 — HEALTHCARE AI
 
-- [Complete technical catalogue — 12 pilot entries, status, evidence levels and independent reviews](CATALOG.md)
-- [Measurement API](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Evidence gateway interface](https://github.com/neomundi-io/neomundi-evidence-gateway)
-- [NeoMundi product architecture](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md)
+### How can you examine AI behaviour in a sensitive domain?
 
-The cases above are **bounded demonstrations and research pilots**, not certifications, universal reliability findings or proof of regulatory compliance. Review each linked protocol for its exact coverage and limits.
+**Small need →** Review an AI response with explicit measurement and evidence context instead of relying on an unsupported quality claim.
 
-## Independent Evidence Reviews — legacy links
+**NeoMundi approach →** Instrument the interaction, inspect behavioural signals and preserve the technical record for review.
 
-The independent technical reviews have moved to the [technical catalogue](CATALOG.md#independent-evidence-reviews). The links below preserve older README anchors shared by email.
+**[Explore live demo 3 — measuring healthcare AI](https://neomundi.io/demo-3/)** · NeoMundi product demonstration.
+
+**Related documented evidence →** [FactNotebook / PubMedQA pilot](https://github.com/neomundi-io/use-case-factnotebook-pubmedqa). This is a separate pilot, not a claim about the demo or medical accuracy.
+
+---
+
+## 06 — MODEL COMPARISON
+
+### Which differences can you document between AI model responses?
+
+**Small need →** Compare responses while keeping the measurement conditions visible.
+
+**NeoMundi approach →** Record observations, inspect the available signals and make the comparison context explicit.
+
+**[Explore live demo 2 — AI model comparison](https://neomundi.io/demo-2/)** · NeoMundi product demonstration, not a published comparative benchmark.
+
+---
+
+## 07 — CONFLICTING ANSWERS
+
+### What do you do when two AI answers disagree?
+
+**Small need →** Examine contradictory outputs without treating a score as proof of factual truth.
+
+**NeoMundi approach →** Present the observations and the available measurement evidence so a reviewer can inspect the conflict.
+
+**[Explore live demo 7 — two opposite answers, one verdict](https://neomundi.io/demo-7/)** · Illustrative product scenario; any verdict displayed belongs to the demonstrated context.
+
+---
+
+## Explore more — technical depth and independent reviews
+
+| Resource | Explore |
+| --- | --- |
+| **Complete pilot catalogue** | [12 documented entries, evidence levels and technical references](CATALOG.md) |
+| **Measurement / Station / Evidence** | [Measurement API](https://github.com/neomundi-io/neomundi-runtime-measurement) · [Station](https://github.com/neomundi-io/neomundi-station-public) · [Evidence gateway](https://github.com/neomundi-io/neomundi-evidence-gateway) |
+| **Architecture** | [NeoMundi product architecture](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md) |
+| **Independent reviews** | [Technical catalogue — reviews](CATALOG.md#independent-evidence-reviews) |
+| **All live demos** | [NeoMundi demo hub](https://neomundi.io/demo/) |
+
+**Legacy review anchors** (kept for existing external links):
 
 - <a id="mark-mocnaj--project-petunia--judicator-ogs"></a>[Mark Mocnaj — Project Petunia × Judicator (OGS)](CATALOG.md#mark-mocnaj--project-petunia--judicator-ogs)
 - <a id="dennis-christie--asin-hhc--cp8"></a>[Dennis Christie — ASIN-HHC / CP8](CATALOG.md#dennis-christie--asin-hhc--cp8)
 - <a id="pradeep-kumar--independent-evidence-review"></a>[Pradeep Kumar — AI Systems Architect & STANAIC Fellow](CATALOG.md#pradeep-kumar--ai-systems-architect--stanaic-fellow)
 - <a id="olusanya-timothy--conformance-corpus-and-cli-verification-contract"></a>[Olusanya Timothy — Conformance corpus and CLI verification contract](CATALOG.md#olusanya-timothy--conformance-corpus-and-cli-verification-contract)
 
+The documented cases are **bounded demonstrations and research pilots**, not certifications or proof of regulatory compliance. The live demos illustrate product workflows; review each source for its conditions.
+
 ---
 
 ## Your organisation, your use case
 
-**[Explore the live demo](https://neomundi.io/demo/)** · **[Discuss a NeoMundi deployment](https://neomundi.io/contact-us/)**
+**[Explore the live demos](https://neomundi.io/demo/)** · **[Discuss a NeoMundi deployment](https://neomundi.io/contact-us/)**
