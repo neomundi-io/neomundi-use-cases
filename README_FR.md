@@ -1,6 +1,6 @@
 <div align="center">
 
-<sub><a href="README.md">English</a> · <b>Français</b></sub>
+[![Français](https://img.shields.io/badge/FR-Fran%C3%A7ais-2563eb?style=flat-square)](README_FR.md) · [![English](https://img.shields.io/badge/EN-English-2563eb?style=flat-square)](README.md)
 
 # Des problèmes métier. Des résultats documentés. Des preuves consultables.
 
@@ -8,9 +8,26 @@
 
 **INSTALL → TRACE → MEASURE → VERIFY → ACT**
 
-[**LIVE DEMO**](https://neomundi.io/fr/demonstration/) · [**Déployer NeoMundi**](https://neomundi.io/fr/contact/) · [Architecture produit](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md)
+**[Explorer les démos](https://neomundi.io/fr/demonstration/)** · **[Voir les 7 besoins](#explorer-7-besoins-ia--accéder-aux-démonstrations)** · **[Étudier un déploiement](https://neomundi.io/fr/contact/)**
+
+[Architecture produit](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.fr.md) · [Tous les composants](https://github.com/orgs/neomundi-io/repositories)
+
+**[neomundi.io](https://neomundi.io/)**
 
 </div>
+
+---
+
+## Du besoin métier aux preuves examinables
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neomundi-io/neomundi-use-cases/main/assets/use-cases-journey-fr-dark.svg">
+    <img alt="Parcours des cas d'usage : choisir parmi sept besoins métier, voir une démonstration, examiner les preuves et leurs limites, puis consulter les protocoles et ressources techniques." src="https://raw.githubusercontent.com/neomundi-io/neomundi-use-cases/main/assets/use-cases-journey-fr-light.svg" width="100%">
+  </picture>
+</p>
+
+**Les démos illustrent des scénarios produit. Les preuves des pilotes sont documentées séparément.** Chaque cas ci-dessous renvoie aux démonstrations pertinentes et, lorsqu'elles existent, aux sources qui étayent ses résultats.
 
 ---
 

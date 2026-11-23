@@ -1,6 +1,6 @@
 <div align="center">
 
-<sub><b>English</b> · <a href="README_FR.md">Français</a></sub>
+[![English](https://img.shields.io/badge/EN-English-2563eb?style=flat-square)](README.md) · [![Français](https://img.shields.io/badge/FR-Fran%C3%A7ais-2563eb?style=flat-square)](README_FR.md)
 
 # AI use cases. Real questions. Documented evidence.
 
@@ -8,9 +8,26 @@
 
 **INSTALL → TRACE → MEASURE → VERIFY → ACT**
 
-[**LIVE DEMO**](https://neomundi.io/demo/) · [**Deploy NeoMundi**](https://neomundi.io/contact-us/) · [Product architecture](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md)
+**[Explore live demos](https://neomundi.io/demo/)** · **[View 7 AI needs](#explore-7-ai-needs--choose-a-live-demo)** · **[Discuss a deployment](https://neomundi.io/contact-us/)**
+
+[Product architecture](https://github.com/neomundi-io/.github/blob/main/docs/PRODUCT_ARCHITECTURE.md) · [All components](https://github.com/orgs/neomundi-io/repositories)
+
+**[neomundi.io](https://neomundi.io/)**
 
 </div>
+
+---
+
+## From a business need to inspectable evidence
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neomundi-io/neomundi-use-cases/main/assets/use-cases-journey-en-dark.svg">
+    <img alt="Use case journey: choose one of seven business needs, explore a live product demo, examine the documented evidence and its limits, then access technical protocols and resources." src="https://raw.githubusercontent.com/neomundi-io/neomundi-use-cases/main/assets/use-cases-journey-en-light.svg" width="100%">
+  </picture>
+</p>
+
+**Demos show product scenarios. Pilot evidence is documented separately.** Each case below links to relevant demonstrations and, when available, the source records that support its claims.
 
 ---
 
