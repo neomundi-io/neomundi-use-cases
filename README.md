@@ -6,6 +6,10 @@
 
 **Know what your AI does. Prove what happened. Less guesswork. More evidence.**
 
+**Measure AI behavior at runtime to help identify anomalies, monitor changes over time and inform operational decisions.**
+
+Use measured signals and their provenance to investigate unexpected behavior and produce independently verifiable evidence. Each use case retains its documented scope and limitations.
+
 **INSTALL → TRACE → MEASURE → VERIFY → ACT**
 
 **[Explore live demos](https://neomundi.io/demo/)** · **[View 7 AI needs](#explore-7-ai-needs--choose-a-live-demo)** · **[Discuss a deployment](https://neomundi.io/contact-us/)**
