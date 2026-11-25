@@ -6,6 +6,10 @@
 
 **Savoir ce que fait votre IA. Prouver ce qui s'est passé. Moins de suppositions. Plus de preuves.**
 
+**Mesurez le comportement des IA en exécution pour aider à repérer les anomalies, surveiller les évolutions dans la durée et éclairer les décisions opérationnelles.**
+
+Appuyez-vous sur les signaux mesurés et leur provenance pour examiner les comportements inattendus et produire des preuves vérifiables indépendamment. Chaque cas d'usage conserve son périmètre et ses limites documentés.
+
 **INSTALL → TRACE → MEASURE → VERIFY → ACT**
 
 **[Explorer les démos](https://neomundi.io/fr/demo/)** · **[Voir les 7 besoins](#explorer-7-besoins-ia--accéder-aux-démonstrations)** · **[Étudier un déploiement](https://neomundi.io/fr/contact/)**
